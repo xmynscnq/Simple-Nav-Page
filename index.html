@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>王五导航</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧭</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="bgLayer"></div>
+<div id="bgOverlay"></div>
+
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header-area">
+    <span class="header-icon">🧭</span>
+    <div>
+      <h1>王五导航</h1>
+      <p class="header-subtitle">沉舟侧畔千帆过，病树前头万木春。</p>
+    </div>
+    <span class="header-icon">✦</span>
+  </div>
+
+  <!-- 搜索区域 -->
+  <div class="search-wrapper">
+    <div class="search-box">
+      <img id="search-engine-icon" src="" alt="搜索引擎图标">
+      <select id="engine" onchange="updateSearchIcon()">
+        <option value="https://www.baidu.com/s?wd=" selected>百度</option>
+        <option value="https://www.google.com/search?q=">Google</option>
+        <option value="https://search.brave.com/search?q=">Brave</option>
+        <option value="https://www.sogou.com/web?query=">搜狗</option>
+        <option value="https://www.bing.com/search?q=">Bing</option>
+        <option value="https://www.so.com/s?q=">360</option>
+        <option value="https://www.quark.cn/s?q=">夸克</option>
+        <option value="https://yandex.com/search/?text=">Yandex</option>
+      </select>
+      <div class="search-divider"></div>
+      <input type="text" id="searchInput" placeholder="请输入搜索内容..." autocomplete="off" />
+      <button onclick="doSearch()" aria-label="搜索">🔍</button>
+    </div>
+    <input type="text" id="localFilter" class="local-search"
+           placeholder="⚡ 快速定位站内网站 (名称/介绍)..."
+           oninput="filterLinks()">
+  </div>
+
+  <!-- 链接分区（由 main.js 动态渲染） -->
+  <div id="main-content"></div>
+
+</div><!-- /.container -->
+
+<script src="main.js"></script>
+</body>
+</html>
