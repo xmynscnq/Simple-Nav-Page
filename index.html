@@ -8,12 +8,9 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div id="bgLayer"></div>
 <div id="bgOverlay"></div>
-
 <div class="container">
-
   <!-- 头部 -->
   <div class="header-area">
     <span class="header-icon">🧭</span>
@@ -26,31 +23,25 @@
 
   <!-- 搜索区域 -->
   <div class="search-wrapper">
-  <div class="search-box">
-    <img id="search-engine-icon" src="" alt="搜索引擎图标">
-    <select id="engine" onchange="updateSearchIcon()">
-        <option value="https://www.baidu.com/s?wd=" selected>百度</option>
-        <option value="https://www.google.com/search?q=">Google</option>
-        <option value="https://search.brave.com/search?q=">Brave</option>
-        <option value="https://www.sogou.com/web?query=">搜狗</option>
-        <option value="https://www.bing.com/search?q=">Bing</option>
-        <option value="https://www.so.com/s?q=">360</option>
-        <option value="https://www.quark.cn/s?q=">夸克</option>
-        <option value="https://yandex.com/search/?text=">Yandex</option>
-      </select>
-    <div class="search-divider"></div>
-    <!-- 关键修改：在这里添加 oninput 事件 -->
-    <input type="text" id="searchInput" placeholder="搜索网页 / 快速定位站内网站..." autocomplete="off" oninput="filterLinks()" />
-    <button onclick="doSearch()" aria-label="搜索">🔍</button>
+    <!-- 分类 Tab -->
+    <div class="search-tabs" id="searchTabs"></div>
+
+    <!-- 搜索框 -->
+    <div class="search-box">
+      <img id="search-engine-icon" src="" alt="搜索引擎图标">
+      <div class="engine-name" id="engineName"></div>
+      <div class="search-divider"></div>
+      <input type="text" id="searchInput" placeholder="搜索网页 / 快速定位站内网站..." autocomplete="off" oninput="filterLinks()" />
+      <button onclick="doSearch()" aria-label="搜索">🔍</button>
+    </div>
+
+    <!-- 引擎快捷按钮 -->
+    <div class="engine-list" id="engineList"></div>
   </div>
-  <!-- 删掉原本在这里的 <input type="text" id="localFilter" ...> -->
-</div>
 
   <!-- 链接分区（由 main.js 动态渲染） -->
   <div id="main-content"></div>
-
-</div><!-- /.container -->
-
+</div>
 <script src="main.js"></script>
 </body>
 </html>
