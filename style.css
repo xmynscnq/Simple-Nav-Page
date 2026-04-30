@@ -218,28 +218,6 @@ h1::after {
 }
 .search-box button:active { transform: scale(0.93); background: #388E3C; }
 
-/* 站内搜索框 */
-.local-search {
-  width: 100%;
-  max-width: 450px;
-  background: rgba(0, 0, 0, 0.55);
-  border: 2px solid var(--primary);
-  border-radius: 25px;
-  padding: 10px 20px;
-  color: #fff;
-  font-size: 0.95rem;
-  text-align: center;
-  font-family: inherit;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  transition: border-color 0.2s, box-shadow 0.2s;
-}
-.local-search:focus {
-  border-color: #81e085;
-  box-shadow: 0 0 0 3px rgba(76,175,80,0.2);
-}
-.local-search::placeholder { color: rgba(255, 255, 255, 0.75); }
-
 /* ===== 分区 ===== */
 .section {
   background: var(--glass-bg);
@@ -269,7 +247,7 @@ h1::after {
   width: 4px;
   height: 1em;
   background: var(--primary);
-  border-radius: 2px;
+  border-radius: 1px;
 }
 
 /* ===== 卡片网格 ===== */
@@ -387,7 +365,7 @@ h1::after {
     transform: translateX(-50%);
     width: min(320px, calc(100vw - 32px));
     background: rgba(10, 10, 10, 0.95);
-    border: 1px solid var(--primary);
+    border: 2px solid var(--primary);
     padding: 10px 14px;
     border-radius: 12px;
     font-size: 0.8rem;
