@@ -2,7 +2,7 @@
    王五导航 · main.js
    =========================== */
 
-const FAVICON_API = 'https://www.google.com/s2/favicons?sz=64&domain=';
+const FAVICON_API = 'https://icons.duckduckgo.com/ip3/';
 const BG_API      = 'https://bing.img.run/rand.php?t=';
 const LINKS_FILE  = 'links.json';
 
@@ -96,11 +96,12 @@ function getDomain(url) {
 /* ── 工具：Favicon ── */
 function faviconSrc(url) {
   const d = getDomain(url);
-  return d ? `${FAVICON_API}${d}` : DEFAULT_ICON;
+  return d ? `${FAVICON_API}${d}.ico` : DEFAULT_ICON;
 }
 
 function engineFavicon(engine) {
-  return `${FAVICON_API}${engine.domain}`;
+  const d = getDomain(engine.domain) || engine.domain;
+  return `${FAVICON_API}${d}.ico`;
 }
 
 /* ── 渲染搜索分类 Tab ── */
@@ -129,7 +130,17 @@ function renderEngineList() {
 
     const img = document.createElement('img');
     img.src = engineFavicon(engine);
-    img.onerror = () => { img.style.display = 'none'; };
+    img.onerror = function () {
+  const d = engine.domain;
+
+  if (d && !this.dataset.fallbackTried) {
+    this.dataset.fallbackTried = '1';
+    this.src = `https://${d}/favicon.ico`;
+  } else {
+    this.src = DEFAULT_ICON;
+    this.onerror = null;
+  }
+};
     img.alt = engine.name;
 
     const label = document.createElement('span');
@@ -232,7 +243,17 @@ function renderCards(sections) {
       img.className = 'favicon';
       img.loading   = 'lazy';
       img.src       = faviconSrc(item.url);
-      img.onerror   = function () { this.src = DEFAULT_ICON; this.onerror = null; };
+      img.onerror = function () {
+  const domain = getDomain(item.url);
+
+  if (domain && !this.dataset.fallbackTried) {
+    this.dataset.fallbackTried = '1';
+    this.src = `https://${domain}/favicon.ico`; // 第二层
+  } else {
+    this.src = DEFAULT_ICON; // 最终兜底
+    this.onerror = null;
+  }
+};
 
       const top = document.createElement('div');
       top.className = 'card-top';
