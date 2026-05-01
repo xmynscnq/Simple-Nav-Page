@@ -55,8 +55,9 @@
 
 编辑 `links.json`：
 
-* `title`：显示名称
-* `desc` / `data-desc`：用于站内搜索关键词
+* `title`：显示名称、用于站内定位关键词
+* `data-desc`：用于站内定位关键词
+* `desc` ：网站下方的介绍
 * `url`：网站地址
 
 ---
