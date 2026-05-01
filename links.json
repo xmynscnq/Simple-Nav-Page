@@ -1,66 +1,179 @@
 [
   {
-    "section": "快速访问",
+    "section": "常用",
     "items": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/dashboard",
+        "desc": "代码托管、开源协作",
+        "data-desc": "全球最大代码托管与开源协作平台，GitHub、git"
+      },
       {
         "title": "哔哩哔哩",
         "url": "https://www.bilibili.com/",
         "desc": "视频、动漫、弹幕",
-        "data-desc": "视频弹幕网站，涵盖动漫、学习与娱乐、B站、b站"
+        "data-desc": "视频弹幕网站，涵盖动漫、学习与娱乐，B站、b站"
       },
       {
-        "title": "抖音",
-        "url": "https://www.douyin.com/jingxuan",
-        "desc": "短视频，精选",
-        "data-desc": "抖音精选短视频内容"
+        "title": "知乎",
+        "url": "https://www.zhihu.com/",
+        "desc": "中文问答社区",
+        "data-desc": "中文互联网最大问答社区，知识分享与讨论平台"
       },
       {
-        "title": "DeepSeek",
-        "url": "https://chat.deepseek.com/",
-        "desc": "国产最强AI",
-        "data-desc": "国产最强 AI 大模型，深度思考与代码辅助"
+        "title": "少数派",
+        "url": "https://sspai.com/",
+        "desc": "数字生活方式媒体",
+        "data-desc": "专注效率与数字生活方式的中文媒体，App推荐、科技资讯"
+      },
+      {
+        "title": "Notion",
+        "url": "https://notion.so/",
+        "desc": "笔记、项目管理",
+        "data-desc": "全能笔记与项目管理工具，支持数据库、文档、任务看板"
+      },
+      {
+        "title": "Figma",
+        "url": "https://www.figma.com/",
+        "desc": "UI设计、协作",
+        "data-desc": "专业 UI/UX 协作设计工具，原型图、设计稿、团队协作"
+      },
+      {
+        "title": "Claude",
+        "url": "https://claude.ai/",
+        "desc": "Anthropic AI助手",
+        "data-desc": "Anthropic 旗下 AI 对话助手，擅长写作、分析与代码"
       },
       {
         "title": "ChatGPT",
         "url": "https://chatgpt.com/",
         "desc": "OpenAI AI助手",
-        "data-desc": "OpenAI 旗下 AI 对话助手"
+        "data-desc": "OpenAI 旗下 AI 对话助手，GPT-4，强大通用大模型"
       },
       {
-        "title": "Github",
-        "url": "https://github.com/dashboard",
-        "desc": "代码托管、开源",
-        "data-desc": "全球最大代码托管与开源协作平台"
+        "title": "DeepL",
+        "url": "https://www.deepl.com/",
+        "desc": "高质量AI翻译",
+        "data-desc": "高质量 AI 驱动翻译工具，比谷歌翻译更自然流畅，支持多语言"
       },
       {
-        "title": "Gmail",
-        "url": "https://mail.google.com/mail/u/0/#inbox",
-        "desc": "Google 邮箱",
-        "data-desc": "Google 旗下电子邮件服务，谷歌邮箱"
+        "title": "Unsplash",
+        "url": "https://unsplash.com/",
+        "desc": "免费高清图片素材",
+        "data-desc": "全球最大免费高清图片素材库，商用免版权，摄影图库"
+      }
+    ]
+  },
+  {
+    "section": "AI 工具",
+    "items": [
+      {
+        "title": "Claude",
+        "url": "https://claude.ai/",
+        "desc": "Anthropic AI助手",
+        "data-desc": "Anthropic 旗下 AI 对话助手，擅长写作、分析与代码，Claude 3.5"
       },
       {
-        "title": "Cloudflare",
-        "url": "https://dash.cloudflare.com",
-        "desc": "CDN、网络安全",
-        "data-desc": "全球领先的 CDN 与网络安全服务、大善人"
+        "title": "ChatGPT",
+        "url": "https://chatgpt.com/",
+        "desc": "OpenAI AI助手",
+        "data-desc": "OpenAI 旗下 AI 对话助手，GPT-4o，强大通用大模型"
       },
       {
-        "title": "虎牙",
-        "url": "https://www.huya.com/",
-        "desc": "游戏、真人秀、一起看",
-        "data-desc": "国内知名游戏直播平台，游戏、真人秀、一起看"
+        "title": "Gemini",
+        "url": "https://gemini.google.com/",
+        "desc": "谷歌多模态AI",
+        "data-desc": "谷歌旗下多模态 AI 大模型，支持图文理解与对话，Gemini 1.5 Pro"
       },
       {
-        "title": "Youtube",
-        "url": "https://www.youtube.com/",
-        "desc": "全球最大视频平台",
-        "data-desc": "全球最大视频平台、油管"
+        "title": "Perplexity",
+        "url": "https://www.perplexity.ai/",
+        "desc": "AI驱动搜索引擎",
+        "data-desc": "AI 驱动的搜索引擎，实时联网检索，带引用来源的问答"
       },
       {
-        "title": "王五博客",
-        "url": "https://wwdy.ccwu.cc",
-        "desc": "个人博客",
-        "data-desc": "王五的个人博客"
+        "title": "Mistral",
+        "url": "https://chat.mistral.ai/",
+        "desc": "欧洲顶级开源AI",
+        "data-desc": "欧洲顶级开源 AI 大模型，Mistral Large，高效轻量推理"
+      },
+      {
+        "title": "DeepSeek",
+        "url": "https://chat.deepseek.com/",
+        "desc": "国产顶级AI大模型",
+        "data-desc": "国产顶级 AI 大模型，深度思考、代码辅助，深度求索，DeepSeek R1"
+      },
+      {
+        "title": "Kimi",
+        "url": "https://kimi.moonshot.cn/",
+        "desc": "月之暗面AI助手",
+        "data-desc": "月之暗面旗下 AI 助手，支持超长上下文，文件阅读与分析，Kimi"
+      },
+      {
+        "title": "文心一言",
+        "url": "https://yiyan.baidu.com/",
+        "desc": "百度AI大模型",
+        "data-desc": "百度旗下文心一言 AI 大模型，ERNIE Bot，中文理解能力强"
+      },
+      {
+        "title": "通义千问",
+        "url": "https://tongyi.aliyun.com/",
+        "desc": "阿里AI大模型",
+        "data-desc": "阿里巴巴旗下通义千问 AI 大模型，Qwen，支持长文档与多模态"
+      },
+      {
+        "title": "豆包",
+        "url": "https://www.doubao.com/chat/",
+        "desc": "字节跳动AI助手",
+        "data-desc": "字节跳动旗下 AI 对话助手，豆包，灵活全面，支持图片生成"
+      },
+      {
+        "title": "讯飞星火",
+        "url": "https://xinghuo.xfyun.cn/",
+        "desc": "科大讯飞AI",
+        "data-desc": "科大讯飞旗下星火大模型，语音识别强，中文场景优化"
+      },
+      {
+        "title": "海螺AI",
+        "url": "https://hailuoai.com/",
+        "desc": "MiniMax AI助手",
+        "data-desc": "MiniMax 旗下海螺 AI 助手，支持图文生成与多轮对话"
+      },
+      {
+        "title": "Midjourney",
+        "url": "https://www.midjourney.com/",
+        "desc": "顶级AI图像生成",
+        "data-desc": "顶级 AI 图像生成工具，绘画风格多样，艺术创作首选，MJ"
+      },
+      {
+        "title": "即梦",
+        "url": "https://jimeng.jianying.com/",
+        "desc": "字节AI图像视频生成",
+        "data-desc": "字节跳动旗下即梦，AI 图像与视频生成，剪映系产品"
+      },
+      {
+        "title": "可灵",
+        "url": "https://klingai.kuaishou.com/",
+        "desc": "快手AI视频生成",
+        "data-desc": "快手旗下可灵 AI 视频生成工具，文生视频、图生视频"
+      },
+      {
+        "title": "Suno",
+        "url": "https://suno.com/",
+        "desc": "AI音乐创作",
+        "data-desc": "AI 音乐生成平台，输入歌词或描述即可生成完整歌曲，Suno AI"
+      },
+      {
+        "title": "Runway",
+        "url": "https://runwayml.com/",
+        "desc": "AI视频生成编辑",
+        "data-desc": "专业 AI 视频生成与编辑平台，Gen-2，文生视频、图生视频"
+      },
+      {
+        "title": "Pika",
+        "url": "https://pika.art/",
+        "desc": "AI视频创作工具",
+        "data-desc": "AI 视频创作平台，Pika Labs，支持文字与图片生成短视频"
       }
     ]
   },
@@ -68,500 +181,314 @@
     "section": "工具",
     "items": [
       {
-        "title": "豆包",
-        "url": "https://www.doubao.com/chat/",
-        "desc": "字节AI助手",
-        "data-desc": "字节跳动旗下 AI 对话助手，灵活全面"
+        "title": "Figma",
+        "url": "https://www.figma.com/",
+        "desc": "UI设计、协作",
+        "data-desc": "专业 UI/UX 协作设计工具，原型图、设计稿、团队协作，Figma"
       },
       {
-        "title": "DeepSeek",
-        "url": "https://chat.deepseek.com/",
-        "desc": "国产最强AI",
-        "data-desc": "国产最强 AI 大模型，深度思考与代码辅助"
+        "title": "即时设计",
+        "url": "https://js.design/",
+        "desc": "国产在线UI设计",
+        "data-desc": "国产在线 UI 设计工具，类 Figma，中文界面，即时设计"
       },
       {
-        "title": "通义千问",
-        "url": "https://tongyi.aliyun.com",
-        "desc": "阿里AI大模型",
-        "data-desc": "阿里巴巴旗下通义千问 AI 大模型"
+        "title": "MasterGo",
+        "url": "https://mastergo.com/",
+        "desc": "团队协作设计工具",
+        "data-desc": "国产团队协作 UI 设计工具，支持原型与设计规范，MasterGo"
       },
       {
-        "title": "地球仪",
-        "url": "https://www.webglearth.com/",
-        "desc": "3D在线地球",
-        "data-desc": "基于 WebGL 的在线3D地球仪"
+        "title": "Canva",
+        "url": "https://www.canva.com/",
+        "desc": "简单图形设计",
+        "data-desc": "简单易用的在线图形设计工具，海报、PPT、社交图片，Canva可画"
       },
       {
-        "title": "QQ邮箱",
-        "url": "https://mail.qq.com",
-        "desc": "腾讯邮箱",
-        "data-desc": "腾讯 QQ 邮箱服务"
+        "title": "TinyPNG",
+        "url": "https://tinypng.com/",
+        "desc": "图片压缩",
+        "data-desc": "在线图片无损压缩工具，支持 PNG、JPG、WebP 格式"
       },
       {
-        "title": "王五邮箱",
-        "url": "https://mail.xmynscnq.ccwu.cc",
-        "desc": "自建个人邮箱",
-        "data-desc": "王五的自建个人邮箱服务"
+        "title": "Squoosh",
+        "url": "https://squoosh.app/",
+        "desc": "谷歌图片压缩",
+        "data-desc": "谷歌出品的在线图片压缩与格式转换工具，支持 WebP、AVIF"
       },
       {
-        "title": "QQ音乐",
-        "url": "https://y.qq.com",
-        "desc": "腾讯音乐平台",
-        "data-desc": "腾讯旗下在线音乐平台"
+        "title": "Remove.bg",
+        "url": "https://www.remove.bg/",
+        "desc": "AI一键抠图",
+        "data-desc": "AI 驱动一键去除图片背景，自动抠图，免费使用"
       },
       {
-        "title": "网易云",
-        "url": "https://music.163.com",
-        "desc": "网易音乐、歌词",
-        "data-desc": "网易旗下在线音乐平台，歌词与评论闻名"
+        "title": "Excalidraw",
+        "url": "https://excalidraw.com/",
+        "desc": "手绘风格白板",
+        "data-desc": "手绘风格在线白板工具，流程图、草图、思维导图，支持协作"
       },
       {
-        "title": "学信网",
-        "url": "https://www.chsi.com.cn",
-        "desc": "学历查询认证",
-        "data-desc": "中国高等教育学生信息网，学历查询认证"
+        "title": "ProcessOn",
+        "url": "https://www.processon.com/",
+        "desc": "在线流程图思维导图",
+        "data-desc": "国内主流在线流程图与思维导图工具，UML、原型图，ProcessOn"
       },
       {
-        "title": "征信查询",
-        "url": "https://www.pbccrc.org.cn",
-        "desc": "个人信用报告",
-        "data-desc": "中国人民银行征信中心，个人信用报告查询"
+        "title": "PDF24",
+        "url": "https://www.pdf24.org/",
+        "desc": "免费PDF工具箱",
+        "data-desc": "免费在线 PDF 工具箱，合并、分割、压缩、转换，PDF24"
       },
       {
-        "title": "测速网",
-        "url": "https://www.speedtest.cn/",
-        "desc": "网络宽带测速",
-        "data-desc": "国内网络测速工具，检测宽带上下行速度"
+        "title": "Smallpdf",
+        "url": "https://smallpdf.com/",
+        "desc": "PDF转换压缩",
+        "data-desc": "在线 PDF 转换、压缩、合并、编辑工具，Smallpdf"
       },
       {
-        "title": "大数计算",
-        "url": "https://www.bchrt.com/tools/big-number-calculator/",
-        "desc": "超大数精确计算",
-        "data-desc": "支持超大整数的在线精确计算器"
+        "title": "Convertio",
+        "url": "https://convertio.co/",
+        "desc": "多格式文件转换",
+        "data-desc": "支持 300+ 格式的在线文件转换工具，图片、视频、音频、文档"
       },
       {
-        "title": "组合计算器",
-        "url": "https://zh.numberempire.com/combinatorialcalculator.php",
-        "desc": "排列组合计算",
-        "data-desc": "在线组合数与排列数计算工具"
+        "title": "Carbon",
+        "url": "https://carbon.now.sh/",
+        "desc": "代码截图美化",
+        "data-desc": "代码美化截图生成工具，支持多种主题与语言高亮，Carbon"
       },
       {
-        "title": "组合计算",
-        "url": "https://calculatorlib.com/zh/combinations-calculator",
-        "desc": "排列组合计算",
-        "data-desc": "另一款在线组合数计算工具"
+        "title": "Regex101",
+        "url": "https://regex101.com/",
+        "desc": "正则表达式调试",
+        "data-desc": "在线正则表达式调试与测试工具，带详细解释，支持多语言"
       },
       {
-        "title": "人声分离",
-        "url": "https://vocalremover.org/zh/",
-        "desc": "AI人声伴奏分离",
-        "data-desc": "AI 人声与伴奏分离，免费在线使用"
+        "title": "CyberChef",
+        "url": "https://gchq.github.io/CyberChef/",
+        "desc": "数据编解码瑞士军刀",
+        "data-desc": "GCHQ 出品的数据处理工具，编码、解码、加密、解密，CyberChef"
       },
       {
-        "title": "哔哩下载",
-        "url": "https://snapany.com/zh/bilibili",
-        "desc": "B站视频下载",
-        "data-desc": "哔哩哔哩视频在线解析下载工具"
+        "title": "DeepL",
+        "url": "https://www.deepl.com/",
+        "desc": "高质量AI翻译",
+        "data-desc": "高质量 AI 驱动翻译工具，比谷歌翻译更自然流畅，支持多语言"
       },
       {
-        "title": "歌词制作",
-        "url": "https://lrc-maker.github.io/",
-        "desc": "LRC歌词编辑",
-        "data-desc": "在线 LRC 歌词文件制作与编辑工具"
-      },
-      {
-        "title": "AI图片",
-        "url": "https://image.baidu.com/search/index?tn=baiduimage&ipn=r&ct=201326592&cl=2&lm=-1&st=-1&fm=detail&fr=baiduimageedit&hs=0&xthttps=111110&sf=1&fmq=1713767239197_R&pv=&ic=0&nc=1&z=&se=&showtab=0&fb=0&width=&height=&face=0&istype=2&ie=utf-8&word=bdaitpzs&oq=%E5%9B%BE%E7%89%87&rsp=-1&lid=15524908295035293703&toolType=8",
-        "desc": "百度AI图片助手",
-        "data-desc": "百度AI图片助手，智能图片搜索与编辑"
-      },
-      {
-        "title": "图片拼接",
-        "url": "http://www.zuohaotu.com/image-merge.aspx",
-        "desc": "在线图片合并",
-        "data-desc": "在线图片拼接合并工具"
-      },
-      {
-        "title": "Link3",
-        "url": "https://www.link3.cc/",
-        "desc": "创作者链接主页",
-        "data-desc": "Link3 创作者主页与社交链接平台"
-      },
-      {
-        "title": "粉丝业务",
-        "url": "https://apppppss.haocanmou.net/",
-        "desc": "涨粉点赞业务",
-        "data-desc": "抖音快手粉丝点赞等业务平台"
-      },
-      {
-        "title": "30tool",
-        "url": "https://30aitool.com/",
-        "desc": "AI工具集合",
-        "data-desc": "30种AI工具集合，提升效率"
-      },
-      {
-        "title": "MikuTools",
-        "url": "https://tools.miku.ac/",
-        "desc": "在线工具箱",
-        "data-desc": "MikuTools 在线工具箱，涵盖多种实用功能"
-      },
-      {
-        "title": "腾讯启明星",
-        "url": "https://y.qq.com/venus#/venus/user/login?redirect=%2Fai-audio%2Flist%3F",
-        "desc": "自制音乐管理",
-        "data-desc": "腾讯音乐启明星 AI 音频创作平台"
-      },
-      {
-        "title": "AICU",
-        "url": "https://www.aicu.cc/",
-        "desc": "B站数据分析",
-        "data-desc": "AICU B站数据查询与用户分析工具"
-      },
-      {
-        "title": "音乐下载",
-        "url": "https://flac.music.hi.cn",
-        "desc": "FLAC无损下载",
-        "data-desc": "免费无损音乐FLAC格式下载"
-      },
-      {
-        "title": "千盒工具",
-        "url": "https://1000tool.com",
-        "desc": "在线工具合集",
-        "data-desc": "千盒工具箱，多种在线实用工具合集"
-      },
-      {
-        "title": "文字转语音",
-        "url": "https://ttsmaker.cn",
-        "desc": "TTS多语言配音",
-        "data-desc": "在线文字转语音，多语言多音色"
-      },
-      {
-        "title": "PDF派",
-        "url": "https://www.pdfpai.com",
-        "desc": "PDF转换处理",
-        "data-desc": "PDF派，在线PDF转换与处理工具"
-      },
-      {
-        "title": "图文工具箱",
-        "url": "https://imgtool.net",
-        "desc": "图片文字处理",
-        "data-desc": "图文工具箱，图片处理与文字工具合集"
-      },
-      {
-        "title": "国外身份1",
-        "url": "https://shenfendaquan.com",
-        "desc": "虚拟身份生成",
-        "data-desc": "国外虚拟身份信息生成工具"
-      },
-      {
-        "title": "国外身份2",
-        "url": "https://www.meiguodizhi.com",
-        "desc": "美国地址生成",
-        "data-desc": "美国地址与身份信息生成工具"
-      },
-      {
-        "title": "UUID",
-        "url": "https://www.uuidgenerator.net",
-        "desc": "UUID在线生成",
-        "data-desc": "在线UUID生成与格式转换工具"
-      },
-      {
-        "title": "三毛机场",
-        "url": "https://xn--ehqx35aimmzwv.com/",
-        "desc": "代理订阅服务",
-        "data-desc": "三毛机场，翻墙代理订阅服务"
-      },
-      {
-        "title": "账号星球",
-        "url": "https://accboyytblw.acceboy.com",
-        "desc": "平台账号交易",
-        "data-desc": "账号星球，各类平台账号购买交易"
-      },
-      {
-        "title": "滴滴批发网",
-        "url": "https://didipifa.com",
-        "desc": "虚拟资源批发",
-        "data-desc": "滴滴批发网，各类虚拟资源批发"
+        "title": "Google翻译",
+        "url": "https://translate.google.com/",
+        "desc": "谷歌多语言翻译",
+        "data-desc": "谷歌多语言即时翻译，支持 100+ 语言，图片翻译、网页翻译"
       }
     ]
   },
   {
-    "section": "资源网",
+    "section": "开发",
     "items": [
       {
-        "title": "Bcoder",
-        "url": "https://bcoder.clbug.com",
-        "desc": "编程开发资源",
-        "data-desc": "Bcoder编程资源网，代码与开发资源下载"
+        "title": "GitHub",
+        "url": "https://github.com/",
+        "desc": "代码托管、开源协作",
+        "data-desc": "全球最大代码托管与开源协作平台，Git、GitHub、开源项目"
       },
       {
-        "title": "Node",
-        "url": "https://nodefree.me",
-        "desc": "免费节点订阅",
-        "data-desc": "免费节点订阅分享，翻墙代理资源"
+        "title": "Gitee",
+        "url": "https://gitee.com/",
+        "desc": "国内代码托管平台",
+        "data-desc": "国内主流代码托管平台，码云，支持私有仓库，国内访问速度快"
       },
       {
-        "title": "系统库",
-        "url": "https://www.xitongku.com/",
-        "desc": "系统镜像下载",
-        "data-desc": "电脑系统镜像下载，Win各版本资源"
+        "title": "Stack Overflow",
+        "url": "https://stackoverflow.com/",
+        "desc": "编程问答社区",
+        "data-desc": "全球最大编程问答社区，技术问题解答，Stack Overflow"
       },
       {
-        "title": "字幕库",
-        "url": "https://www.opensubtitles.org/zh",
-        "desc": "影视字幕下载",
-        "data-desc": "全球最大字幕库，多语言影视字幕下载"
+        "title": "SegmentFault",
+        "url": "https://segmentfault.com/",
+        "desc": "中文技术问答社区",
+        "data-desc": "国内中文技术问答社区，思否，前端、后端、算法讨论"
       },
       {
-        "title": "洛雪音乐",
-        "url": "https://lxmusic.toside.cn",
-        "desc": "多平台音乐下载",
-        "data-desc": "洛雪音乐助手，多平台音乐免费下载"
+        "title": "掘金",
+        "url": "https://juejin.cn/",
+        "desc": "中文开发者社区",
+        "data-desc": "国内优质中文开发者技术社区，前端、Android、iOS、后端文章"
       },
       {
-        "title": "葫芦侠",
-        "url": "https://www.huluxia.com",
-        "desc": "安卓游戏破解",
-        "data-desc": "葫芦侠，安卓游戏破解与资源平台"
+        "title": "CSDN",
+        "url": "https://www.csdn.net/",
+        "desc": "中文IT技术论坛",
+        "data-desc": "国内最大 IT 技术博客与论坛，CSDN，编程教程、技术博客"
       },
       {
-        "title": "图片素材",
-        "url": "https://www.pexels.com/zh-cn/",
-        "desc": "免费高清素材库",
-        "data-desc": "免费高质量图片与视频素材库"
+        "title": "MDN",
+        "url": "https://developer.mozilla.org/",
+        "desc": "Web开发权威文档",
+        "data-desc": "Mozilla 出品 Web 开发权威文档，HTML、CSS、JavaScript 参考"
       },
       {
-        "title": "刘明野",
-        "url": "https://tools.liumingye.cn/?page=homePage#/",
-        "desc": "综合在线工具箱",
-        "data-desc": "刘明野在线工具箱，涵盖音乐下载等功能"
+        "title": "DevDocs",
+        "url": "https://devdocs.io/",
+        "desc": "多语言API文档聚合",
+        "data-desc": "多语言、多框架 API 文档聚合站，支持离线访问，DevDocs"
       },
       {
-        "title": "二次元图",
-        "url": "https://konachan.net/",
-        "desc": "动漫壁纸社区",
-        "data-desc": "高质量二次元动漫壁纸图片社区"
+        "title": "Can I Use",
+        "url": "https://caniuse.com/",
+        "desc": "浏览器兼容性查询",
+        "data-desc": "查询 HTML、CSS、JS 特性的浏览器兼容性，Can I Use"
       },
       {
-        "title": "素材资源",
-        "url": "https://www.sucaizy.com/",
-        "desc": "设计素材模板",
-        "data-desc": "设计素材资源网，模板图片免费下载"
+        "title": "CodePen",
+        "url": "https://codepen.io/",
+        "desc": "前端代码在线演示",
+        "data-desc": "前端代码在线编写与演示平台，HTML/CSS/JS，CodePen"
       },
       {
-        "title": "Wallpapers",
-        "url": "https://wallpaperscraft.com",
-        "desc": "高清壁纸下载",
-        "data-desc": "高清壁纸下载，多分辨率免费壁纸"
+        "title": "CodeSandbox",
+        "url": "https://codesandbox.io/",
+        "desc": "在线代码沙箱",
+        "data-desc": "在线代码沙箱环境，支持 React、Vue、Node 等完整项目运行"
       },
       {
-        "title": "腾讯软件",
-        "url": "https://pc.qq.com/",
-        "desc": "正版软件下载",
-        "data-desc": "腾讯软件中心，正版软件安全下载"
+        "title": "Vercel",
+        "url": "https://vercel.com/",
+        "desc": "前端部署托管",
+        "data-desc": "前端应用一键部署托管平台，支持 Next.js、静态站，Vercel"
       },
       {
-        "title": "资源帝",
-        "url": "https://www.ziyuandi.cn/",
-        "desc": "网盘资源聚合",
-        "data-desc": "资源帝，各类网盘资源聚合分享"
+        "title": "Netlify",
+        "url": "https://www.netlify.com/",
+        "desc": "静态站部署托管",
+        "data-desc": "静态网站与前端应用部署托管，自动 CI/CD，Netlify"
       },
       {
-        "title": "盘哥资源",
-        "url": "https://www.kdocs.cn/l/cu0qRXqpfy0U",
-        "desc": "网盘资源分享",
-        "data-desc": "盘哥网盘资源分享文档合集"
+        "title": "npm",
+        "url": "https://www.npmjs.com/",
+        "desc": "Node包管理仓库",
+        "data-desc": "Node.js 官方包管理仓库，查找、发布 JavaScript 包，npm"
       },
       {
-        "title": "JJ推",
-        "url": "https://www.jjtui.com",
-        "desc": "资源推荐平台",
-        "data-desc": "JJ推，优质内容与资源推荐平台"
+        "title": "Docker Hub",
+        "url": "https://hub.docker.com/",
+        "desc": "容器镜像仓库",
+        "data-desc": "Docker 官方容器镜像仓库，查找与发布镜像，Docker Hub"
       },
       {
-        "title": "夸克资源网",
-        "url": "https://kuakezy.cc",
-        "desc": "夸克网盘资源",
-        "data-desc": "夸克资源社，夸克网盘资源分享社区"
-      },
-      {
-        "title": "橘子资源",
-        "url": "https://www.juzia.cn",
-        "desc": "影视软件资源",
-        "data-desc": "橘子资源网，影视音乐软件资源分享"
-      },
-      {
-        "title": "不找了",
-        "url": "https://xn--fiqs8sirgfmh.cn",
-        "desc": "资源搜索导航",
-        "data-desc": "不找了，资源搜索与导航聚合平台"
-      },
-      {
-        "title": "穷人论坛",
-        "url": "https://www.taiqiongle.com",
-        "desc": "低价资源薅羊毛",
-        "data-desc": "穷人论坛，低价资源与薅羊毛技巧分享"
-      },
-      {
-        "title": "YHY科技",
-        "url": "https://link3.cc/yhyzyk",
-        "desc": "科技资源工具",
-        "data-desc": "YHY科技，科技资源与工具分享"
-      },
-      {
-        "title": "在线街机",
-        "url": "https://www.yikm.net/",
-        "desc": "经典街机模拟",
-        "data-desc": "在线街机模拟器，经典游戏免费畅玩"
-      },
-      {
-        "title": "喂鱼",
-        "url": "https://goldfishies.com",
-        "desc": "在线喂鱼解压",
-        "data-desc": "在线喂鱼小游戏，放松解压"
-      },
-      {
-        "title": "技能加点",
-        "url": "https://skilladd.org",
-        "desc": "个人成长学习",
-        "data-desc": "技能加点，个人成长与学习资源平台"
-      },
-      {
-        "title": "Docker",
-        "url": "https://www.docker.com",
-        "desc": "容器化开发部署",
-        "data-desc": "Docker 容器化开发与部署平台"
-      },
-      {
-        "title": "轩辕镜像",
-        "url": "https://xuanyuan.cloud",
-        "desc": "Docker镜像加速",
-        "data-desc": "轩辕镜像，Docker镜像加速与资源站"
-      },
-      {
-        "title": "MVCAT",
-        "url": "https://www.mvcat.com/",
-        "desc": "影视资源搜索",
-        "data-desc": "MVCAT 影视资源搜索与在线观看"
-      },
-      {
-        "title": "百万联盟网",
-        "url": "https://m.newmt.fun/",
-        "desc": "网赚流量变现",
-        "data-desc": "百万联盟网，网赚与流量变现资源"
-      },
-      {
-        "title": "二狗蛋盘",
-        "url": "https://link3.cc/vitaian",
-        "desc": "影视网盘分享",
-        "data-desc": "二狗蛋网盘，影视资源网盘分享"
-      },
-      {
-        "title": "少帅网盘",
-        "url": "https://link3.cc/55ys",
-        "desc": "影视资源收藏",
-        "data-desc": "少帅网盘，影视资源收藏分享"
-      },
-      {
-        "title": "饼干网盘",
-        "url": "https://link3.cc/binggan",
-        "desc": "网盘资源分享",
-        "data-desc": "饼干网盘，网盘资源分享合集"
-      },
-      {
-        "title": "雅幽4K盘",
-        "url": "https://link3.cc/4kziyuan",
-        "desc": "4K超清影视资源",
-        "data-desc": "雅幽网盘，4K超高清影视资源分享"
-      },
-      {
-        "title": "丙的网盘",
-        "url": "https://link3.cc/fengdzyk",
-        "desc": "个人网盘资源",
-        "data-desc": "丙的网盘，个人网盘资源整理分享"
-      },
-      {
-        "title": "网盘资源社",
-        "url": "https://link3.cc/by998",
-        "desc": "网盘资源汇聚",
-        "data-desc": "网盘资源社，各类网盘资源汇聚分享"
-      },
-      {
-        "title": "虫部落盘搜",
-        "url": "https://search.chongbuluo.com/",
-        "desc": "网盘聚合搜索",
-        "data-desc": "虫部落快搜，网盘资源聚合搜索"
-      },
-      {
-        "title": "兄弟盘",
-        "url": "https://xiongdipan.com/",
-        "desc": "网盘资源搜索",
-        "data-desc": "兄弟盘，网盘资源搜索与分享平台"
-      },
-      {
-        "title": "大圣盘",
-        "url": "https://www.dashengpan.com/#/main/search?restype=1",
-        "desc": "网盘搜索引擎",
-        "data-desc": "大圣盘，网盘资源搜索引擎"
-      },
-      {
-        "title": "秒搜网盘",
-        "url": "https://miaosou.fun/",
-        "desc": "极速网盘搜索",
-        "data-desc": "秒搜，网盘资源极速搜索平台"
-      },
-      {
-        "title": "磁力猫",
-        "url": "https://clm20241231.xn--z7xt16d.com/",
-        "desc": "磁力资源搜索",
-        "data-desc": "磁力猫，磁力链接搜索与资源下载"
-      },
-      {
-        "title": "电影港",
-        "url": "https://www.dygangs.net/",
-        "desc": "在线影视观看",
-        "data-desc": "电影港，在线影视资源观看与下载"
-      },
-      {
-        "title": "BT网站大全",
-        "url": "http://m.02516.com/bt/",
-        "desc": "BT资源导航",
-        "data-desc": "BT网站大全，BT资源导航聚合"
-      },
-      {
-        "title": "BT导航",
-        "url": "https://btxunlei.biz/",
-        "desc": "BT磁力资源站",
-        "data-desc": "BT导航，BT磁力资源站点导航"
+        "title": "JSONFormatter",
+        "url": "https://jsonformatter.curiousconcept.com/",
+        "desc": "JSON格式化验证",
+        "data-desc": "在线 JSON 格式化、验证与美化工具，JSON Formatter"
       }
     ]
   },
   {
-    "section": "宗教经典",
+    "section": "资源",
     "items": [
       {
-        "title": "古兰经",
-        "url": "https://qurano.com",
-        "desc": "在线古兰经阅读",
-        "data-desc": "在线古兰经，多语言版本阅读与检索"
+        "title": "Unsplash",
+        "url": "https://unsplash.com/",
+        "desc": "免费高清图片素材",
+        "data-desc": "全球最大免费高清图片素材库，商用免版权，摄影图库，Unsplash"
       },
       {
-        "title": "汉语圣经协会",
-        "url": "https://www.chinesebible.org.hk/hk",
-        "desc": "中文圣经在线读",
-        "data-desc": "汉语圣经协会，中文圣经在线阅读与下载"
+        "title": "Pexels",
+        "url": "https://www.pexels.com/",
+        "desc": "免版权图片视频",
+        "data-desc": "免费商用图片与视频素材库，Pexels，支持中文搜索"
       },
       {
-        "title": "CBETA佛经",
-        "url": "https://www.cbetaonline.cn",
-        "desc": "汉文佛典在线读",
-        "data-desc": "CBETA汉文佛典，佛经在线阅读与检索"
+        "title": "Pixabay",
+        "url": "https://pixabay.com/",
+        "desc": "免费图片插画素材",
+        "data-desc": "免费图片、插画、矢量图、视频素材库，Pixabay，商用免版权"
       },
       {
-        "title": "佛教导航",
-        "url": "https://www.fjdh.cn",
-        "desc": "佛学资讯与资源",
-        "data-desc": "佛教导航，佛学资讯与寺院资源大全"
+        "title": "觅元素",
+        "url": "https://www.51yuansu.com/",
+        "desc": "国内免抠素材平台",
+        "data-desc": "国内免抠 PNG 素材下载平台，觅元素，设计素材丰富"
+      },
+      {
+        "title": "包图网",
+        "url": "https://ibaotu.com/",
+        "desc": "国内设计素材网站",
+        "data-desc": "国内设计素材平台，包图网，模板、背景、图片、字体、PPT"
+      },
+      {
+        "title": "Iconfont",
+        "url": "https://www.iconfont.cn/",
+        "desc": "阿里图标库",
+        "data-desc": "阿里巴巴旗下矢量图标库，iconfont，支持 SVG、Font 格式下载"
+      },
+      {
+        "title": "Font Awesome",
+        "url": "https://fontawesome.com/",
+        "desc": "图标字体库",
+        "data-desc": "全球使用最广泛的图标字体库，Font Awesome，支持 SVG 与 Web Font"
+      },
+      {
+        "title": "Iconify",
+        "url": "https://iconify.design/",
+        "desc": "多集合图标聚合",
+        "data-desc": "聚合 100+ 图标集合的开源图标库，Iconify，支持按需引用"
+      },
+      {
+        "title": "Google Fonts",
+        "url": "https://fonts.google.com/",
+        "desc": "谷歌开源字体库",
+        "data-desc": "谷歌开源字体库，Google Fonts，免费商用，支持中文字体"
+      },
+      {
+        "title": "字体天下",
+        "url": "https://www.fonts.net.cn/",
+        "desc": "中文字体下载",
+        "data-desc": "中文字体下载平台，字体天下，商用字体、免费字体分类查找"
+      },
+      {
+        "title": "Freepik",
+        "url": "https://www.freepik.com/",
+        "desc": "免费矢量图素材",
+        "data-desc": "免费矢量图、插画、PSD 素材下载，Freepik，设计师常用"
+      },
+      {
+        "title": "Mixkit",
+        "url": "https://mixkit.co/",
+        "desc": "免费视频音频素材",
+        "data-desc": "免费视频片段、音效、音乐素材下载，Mixkit，商用免版权"
+      },
+      {
+        "title": "Coolors",
+        "url": "https://coolors.co/",
+        "desc": "配色方案生成器",
+        "data-desc": "在线配色方案生成与探索工具，Coolors，调色盘、渐变生成"
+      },
+      {
+        "title": "中国色",
+        "url": "https://zhongguose.com/",
+        "desc": "中国传统色彩参考",
+        "data-desc": "中国传统色彩查询网站，中国色，提供色名、CMYK、RGB、HEX 值"
+      },
+      {
+        "title": "z-library",
+        "url": "https://z-library.sk/",
+        "desc": "电子书下载",
+        "data-desc": "全球最大电子书下载平台，z-lib，支持 PDF、EPUB，覆盖各类书籍"
+      },
+      {
+        "title": "鸠摩搜书",
+        "url": "https://www.jiumodiary.com/",
+        "desc": "中文电子书搜索",
+        "data-desc": "中文电子书搜索引擎，鸠摩搜书，聚合多平台书源，免费下载"
+      },
+      {
+        "title": "Archive.org",
+        "url": "https://archive.org/",
+        "desc": "互联网档案馆",
+        "data-desc": "互联网数字档案馆，网页快照、书籍、音乐、软件历史资源"
       }
     ]
   },
@@ -569,601 +496,6 @@
     "section": "影视",
     "items": [
       {
-        "title": "央视直播",
-        "url": "https://tv.cctv.com/live/",
-        "desc": "央视频道在线直播",
-        "data-desc": "央视频道在线直播，新闻综艺体育全覆盖"
-      },
-      {
-        "title": "哔哩哔哩",
-        "url": "https://www.bilibili.com/",
-        "desc": "视频、动漫、弹幕",
-        "data-desc": "视频弹幕网站，涵盖动漫、学习与娱乐"
-      },
-      {
-        "title": "抖音",
-        "url": "https://www.douyin.com/jingxuan",
-        "desc": "抖音精选短视频",
-        "data-desc": "抖音精选短视频内容"
-      },
-      {
-        "title": "斗鱼",
-        "url": "https://www.douyu.com",
-        "desc": "游戏娱乐直播",
-        "data-desc": "斗鱼直播，游戏娱乐综合直播平台"
-      },
-      {
-        "title": "虎牙",
-        "url": "https://www.huya.com/",
-        "desc": "游戏直播平台",
-        "data-desc": "虎牙直播，国内知名游戏直播平台"
-      },
-      {
-        "title": "快手",
-        "url": "https://www.kuaishou.com/?isHome=1",
-        "desc": "短视频直播社交",
-        "data-desc": "快手，短视频与直播社交平台"
-      },
-      {
-        "title": "看片狂人",
-        "url": "https://kuangren.us/",
-        "desc": "在线影视免费看",
-        "data-desc": "看片狂人，在线影视资源免费观看"
-      },
-      {
-        "title": "影视宝藏库",
-        "url": "https://tv.baozangdh.com/",
-        "desc": "精选影视在线看",
-        "data-desc": "影视宝藏库，精选影视资源在线观看"
-      },
-      {
-        "title": "思菲影视",
-        "url": "https://www.sfeii.com",
-        "desc": "高清影视在线播",
-        "data-desc": "思菲影视，高清影视资源在线播放"
-      },
-      {
-        "title": "追剧猫",
-        "url": "https://zhuiyingmao5.com",
-        "desc": "热门剧集追更",
-        "data-desc": "追剧猫，热门剧集追更与在线观看"
-      },
-      {
-        "title": "片库",
-        "url": "https://www.pys1.com/",
-        "desc": "海量高清影视库",
-        "data-desc": "片库，海量高清电影电视剧在线观看"
-      },
-      {
-        "title": "80S电影",
-        "url": "https://y81s.com",
-        "desc": "经典新片在线看",
-        "data-desc": "80S电影网，经典老片与新片在线观看"
-      },
-      {
-        "title": "飘花电影",
-        "url": "https://www.piaohua2.com/",
-        "desc": "高清电影下载看",
-        "data-desc": "飘花电影网，高清电影免费下载观看"
-      }
-    ]
-  },
-  {
-    "section": "国外",
-    "items": [
-      {
-        "title": "ChatGPT",
-        "url": "https://chatgpt.com/",
-        "desc": "OpenAI AI助手",
-        "data-desc": "OpenAI 旗下 AI 对话助手"
-      },
-      {
-        "title": "Claude",
-        "url": "https://claude.ai",
-        "desc": "Anthropic AI助手",
-        "data-desc": "Anthropic 旗下 AI 助手，擅长分析与写作"
-      },
-      {
-        "title": "Gemini",
-        "url": "https://gemini.google.com",
-        "desc": "Google AI助手",
-        "data-desc": "Google 旗下 Gemini AI 大模型助手"
-      },
-      {
-        "title": "Github",
-        "url": "https://github.com/dashboard",
-        "desc": "代码托管开源",
-        "data-desc": "全球最大代码托管与开源协作平台"
-      },
-      {
-        "title": "Gmail",
-        "url": "https://mail.google.com/mail/u/0/#inbox",
-        "desc": "Google 邮箱",
-        "data-desc": "Google 旗下电子邮件服务"
-      },
-      {
-        "title": "Telegram",
-        "url": "https://web.telegram.org/k/",
-        "desc": "加密即时通讯",
-        "data-desc": "Telegram 网页版，加密即时通讯工具"
-      },
-      {
-        "title": "X",
-        "url": "https://x.com/home",
-        "desc": "全球实时社交",
-        "data-desc": "X（原Twitter），全球实时社交媒体平台"
-      },
-      {
-        "title": "Cloudflare",
-        "url": "https://dash.cloudflare.com",
-        "desc": "CDN 网络安全",
-        "data-desc": "全球领先的 CDN 与网络安全服务"
-      },
-      {
-        "title": "Vercel",
-        "url": "https://vercel.com",
-        "desc": "前端托管部署",
-        "data-desc": "Vercel，前端项目托管与自动化部署平台"
-      },
-      {
-        "title": "Notion",
-        "url": "https://www.notion.com",
-        "desc": "笔记协作工作台",
-        "data-desc": "Notion，全能笔记与团队协作工作台"
-      },
-      {
-        "title": "Resend",
-        "url": "https://resend.com",
-        "desc": "开发者邮件API",
-        "data-desc": "Resend，面向开发者的邮件发送 API 服务"
-      },
-      {
-        "title": "Youtube",
+        "title": "YouTube",
         "url": "https://www.youtube.com/",
-        "desc": "全球最大视频平台",
-        "data-desc": "全球最大视频平台"
-      },
-      {
-        "title": "Plex",
-        "url": "https://watch.plex.tv",
-        "desc": "个人媒体库播放",
-        "data-desc": "Plex，个人媒体库管理与在线播放平台"
-      },
-      {
-        "title": "TV Garden",
-        "url": "https://tv.garden/",
-        "desc": "全球网络电视",
-        "data-desc": "TV Garden，全球免费网络电视频道聚合"
-      },
-      {
-        "title": "Cineby",
-        "url": "https://www.cineby.gd",
-        "desc": "在线影视免费看",
-        "data-desc": "Cineby，在线电影与剧集免费观看"
-      },
-      {
-        "title": "TikTok",
-        "url": "https://www.tiktok.com/foryou?lang=zh-Hans",
-        "desc": "国际版短视频",
-        "data-desc": "TikTok 国际版短视频平台"
-      },
-      {
-        "title": "Instagram",
-        "url": "https://www.instagram.com/",
-        "desc": "图片视频社交",
-        "data-desc": "Instagram，图片与短视频社交分享平台"
-      },
-      {
-        "title": "Facebook",
-        "url": "https://www.facebook.com/",
-        "desc": "全球社交网络",
-        "data-desc": "Facebook，全球最大社交网络平台"
-      },
-      {
-        "title": "WhatsApp",
-        "url": "https://web.whatsapp.com/",
-        "desc": "全球即时通讯",
-        "data-desc": "WhatsApp 网页版，全球即时通讯工具"
-      },
-      {
-        "title": "PayPal",
-        "url": "https://www.paypal.com",
-        "desc": "全球在线支付",
-        "data-desc": "PayPal，全球主流在线支付与转账平台"
-      },
-      {
-        "title": "Grailed",
-        "url": "https://www.grailed.com/",
-        "desc": "潮牌二手服饰",
-        "data-desc": "Grailed，男士潮牌二手服饰买卖平台"
-      },
-      {
-        "title": "YT下载1",
-        "url": "https://downmp3.yt/zhn2/youtube-video-downloader",
-        "desc": "YouTube视频下载",
-        "data-desc": "YouTube 视频在线下载工具"
-      },
-      {
-        "title": "YT下载2",
-        "url": "https://zh.loader.to/1/",
-        "desc": "YouTube音视频下载",
-        "data-desc": "另一款 YouTube 视频音频下载工具"
-      },
-      {
-        "title": "Suno AI音乐",
-        "url": "https://suno.com/create?wid=default&page=1",
-        "desc": "AI音乐生成创作",
-        "data-desc": "Suno AI 音乐生成，输入歌词即可创作"
-      },
-      {
-        "title": "OKX",
-        "url": "https://www.okx.com",
-        "desc": "加密货币交易所",
-        "data-desc": "OKX，全球主流加密货币交易所"
-      },
-      {
-        "title": "Yandex",
-        "url": "https://yandex.com",
-        "desc": "俄罗斯搜索引擎",
-        "data-desc": "Yandex，俄罗斯最大搜索引擎与服务平台"
-      },
-      {
-        "title": "Spaceship",
-        "url": "https://www.spaceship.com",
-        "desc": "域名注册",
-        "data-desc": "Spaceship，低价域名注册与管理平台"
-      },
-      {
-        "title": "EU.org",
-        "url": "https://nic.eu.org",
-        "desc": "免费高级域名",
-        "data-desc": "EU.org 免费高级域名申请注册"
-      },
-      {
-        "title": "DigitalPlat",
-        "url": "https://dash.domain.digitalplat.org",
-        "desc": "免费二级域名",
-        "data-desc": "DigitalPlat，免费二级域名申请平台"
-      },
-      {
-        "title": "DNSHE",
-        "url": "https://dnshe.com",
-        "desc": "DNS解析管理",
-        "data-desc": "DNSHE，域名 DNS 解析管理服务"
-      },
-      {
-        "title": "RackNerd",
-        "url": "https://www.racknerd.com",
-        "desc": "VPS服务器",
-        "data-desc": "RackNerd，低价 VPS 服务器托管服务"
-      },
-      {
-        "title": "Tor",
-        "url": "https://www.torproject.org",
-        "desc": "匿名网络浏览器",
-        "data-desc": "Tor Project，匿名网络浏览器官方下载"
-      }
-    ]
-  },
-  {
-    "section": "TV盒子",
-    "items": [
-      {
-        "title": "小薇直播",
-        "url": "http://xwzbapp.com",
-        "desc": "电视直播神器",
-        "data-desc": "经典的智能电视及机顶盒电视直播APP"
-      },
-      {
-        "title": "超秒直播",
-        "url": "http://www.supertvbus.com",
-        "desc": "高清直播平台",
-        "data-desc": "稳定高清的电视直播频道集合"
-      },
-      {
-        "title": "海王直播",
-        "url": "http://www.seakingtv.com",
-        "desc": "在线电视直播",
-        "data-desc": "海量电视节目在线直播观看"
-      },
-      {
-        "title": "非凡资源",
-        "url": "http://ffzy.tv/",
-        "desc": "影视采集接口",
-        "data-desc": "非凡影视资源采集接口，更新及时"
-      },
-      {
-        "title": "量子资源",
-        "url": "https://lzizy.com/",
-        "desc": "影视资源分享",
-        "data-desc": "量子影视资源，提供高质量视频源"
-      },
-      {
-        "title": "淘片资源",
-        "url": "https://www.taopianzy.com/index.html",
-        "desc": "精品采集源",
-        "data-desc": "淘片资源采集，适配多种影视模板"
-      },
-      {
-        "title": "光速资源",
-        "url": "https://cj.guangsuzy.com/",
-        "desc": "极速影视源",
-        "data-desc": "光速更新影视资源，极速播放体验"
-      },
-      {
-        "title": "虎牙资源",
-        "url": "https://huyazy.net/",
-        "desc": "综合资源站",
-        "data-desc": "虎牙影视采集，多元化内容覆盖"
-      },
-      {
-        "title": "新浪资源",
-        "url": "https://xinlangzy.com/",
-        "desc": "影视采集源",
-        "data-desc": "新浪影视资源，稳定高效的采集接口"
-      },
-      {
-        "title": "魔都资源",
-        "url": "https://moduzy.com/",
-        "desc": "精品资源站",
-        "data-desc": "魔都影视采集，资源丰富，加载飞快"
-      },
-      {
-        "title": "金鹰资源",
-        "url": "https://jinyingzy.net/",
-        "desc": "影视采集接口",
-        "data-desc": "金鹰采集站，提供多种清晰度选择"
-      },
-      {
-        "title": "极速资源",
-        "url": "https://www.jisuzy.com/",
-        "desc": "快更新采集站",
-        "data-desc": "极速资源网，主打快速响应与更新"
-      },
-      {
-        "title": "红牛资源",
-        "url": "https://hongniuzy.net/",
-        "desc": "稳定影视源",
-        "data-desc": "红牛资源网，老牌且稳定的采集接口"
-      },
-      {
-        "title": "索尼资源",
-        "url": "https://suonizy.com/",
-        "desc": "高质量资源",
-        "data-desc": "索尼影视资源，大厂风范，画质优良"
-      },
-      {
-        "title": "无尽资源",
-        "url": "https://www.wujinzy.com/",
-        "desc": "海量资源库",
-        "data-desc": "无尽资源采集，涵盖全网热门影视内容"
-      },
-      {
-        "title": "樱花资源",
-        "url": "https://yhzy.cc/",
-        "desc": "动漫影视采集",
-        "data-desc": "樱花动漫与影视资源，内容丰富多元"
-      },
-      {
-        "title": "ikun资源",
-        "url": "https://ikunzy.com/",
-        "desc": "影视资源接口",
-        "data-desc": "ikun专属影视资源，只为极致体验"
-      },
-      {
-        "title": "豆瓣资源",
-        "url": "https://www.dbzy3.com/",
-        "desc": "精品影视站",
-        "data-desc": "豆瓣高分资源采集，专注于精品内容"
-      },
-      {
-        "title": "IQIYI资源",
-        "url": "https://iqiyizy.com/",
-        "desc": "影视同步采集",
-        "data-desc": "同步全网热门剧集，高效采集接口"
-      },
-      {
-        "title": "卧龙资源",
-        "url": "https://wolongzyw.tv/",
-        "desc": "影视采集库",
-        "data-desc": "卧龙影视资源网，独家播放源分享"
-      },
-      {
-        "title": "360资源",
-        "url": "https://360zy.vip/",
-        "desc": "综合影视接口",
-        "data-desc": "全方位影视资源采集，360度无死角覆盖"
-      },
-      {
-        "title": "电影天堂",
-        "url": "https://caiji.dyttzyapi.com/",
-        "desc": "影视采集源",
-        "data-desc": "经典电影天堂资源采集API"
-      },
-      {
-        "title": "如意资源",
-        "url": "https://www.ryzyw.com/",
-        "desc": "影视资源库",
-        "data-desc": "如意影视资源，万事如意，资源管够"
-      },
-      {
-        "title": "天涯资源",
-        "url": "https://tyyszy.com/",
-        "desc": "影视采集接口",
-        "data-desc": "天涯影视采集，老牌站点，稳定更新"
-      },
-      {
-        "title": "暴风资源",
-        "url": "https://bfzy.tv",
-        "desc": "影视采集源",
-        "data-desc": "暴风影视资源，强力解析，极速播放"
-      },
-      {
-        "title": "旺旺资源",
-        "url": "https://wwzy.tv/",
-        "desc": "影视采集库",
-        "data-desc": "旺旺资源网，影视资源全覆盖"
-      },
-      {
-        "title": "box配置编辑",
-        "url": "http://z.qiqiv.cn",
-        "desc": "接口编辑工具",
-        "data-desc": "TVBox配置文件在线编辑工具"
-      },
-      {
-        "title": "肥猫",
-        "url": "http://xn--z7x900a.com",
-        "desc": "TVBox接口",
-        "data-desc": "肥猫TVBox精选接口配置"
-      },
-      {
-        "title": "饭太硬",
-        "url": "http://www.xn--sss604efuw.com",
-        "desc": "TVBox配置",
-        "data-desc": "饭太硬TVBox精品数据源"
-      },
-      {
-        "title": "王二小",
-        "url": "https://www.xn--4kq62z5rby2qupq9ub.top",
-        "desc": "TVBox数据源",
-        "data-desc": "王二小TVBox专属接口分享"
-      },
-      {
-        "title": "摸鱼儿",
-        "url": "https://www.xn--v4q818bf34b.com",
-        "desc": "TVBox资源",
-        "data-desc": "摸鱼儿TVBox接口与导航"
-      },
-      {
-        "title": "小虎斑",
-        "url": "https://link3.cc/huban",
-        "desc": "TVBox源分享",
-        "data-desc": "小虎斑TVBox配置与资源整合"
-      },
-      {
-        "title": "装歌",
-        "url": "https://xn--anna-wn6lw489o.v.nxog.top",
-        "desc": "TVBox接口",
-        "data-desc": "装歌TVBox综合配置接口"
-      },
-      {
-        "title": "装歌api",
-        "url": "https://xn--anna-wn6lw489o.v.nxog.top/m",
-        "desc": "数据接口API",
-        "data-desc": "装歌专用的数据采集API接口"
-      },
-      {
-        "title": "小米",
-        "url": "https://link3.cc/lovemm",
-        "desc": "TVBox配置",
-        "data-desc": "小米专用TVBox配置资源汇总"
-      },
-      {
-        "title": "巧计",
-        "url": "https://qiaoji8.com",
-        "desc": "TVBox资源站",
-        "data-desc": "巧计TVBox，聪明人的影视选择"
-      },
-      {
-        "title": "盒子迷",
-        "url": "https://xn--i8sz35d1yr.top/index.html",
-        "desc": "盒子资源导航",
-        "data-desc": "专注TVBox盒子玩家的资源迷宫"
-      },
-      {
-        "title": "驸马影视",
-        "url": "http://fmys.top",
-        "desc": "影视资源源",
-        "data-desc": "驸马影视TVBox配置与在线播放"
-      },
-      {
-        "title": "影视仓",
-        "url": "http://47.120.41.246:8025/vip/web",
-        "desc": "管理后台",
-        "data-desc": "影视仓Web后台与VIP配置管理"
-      },
-      {
-        "title": "奇奇论坛",
-        "url": "https://bbs.qiqiv.cn/forum-70-1.html",
-        "desc": "资源交流社区",
-        "data-desc": "奇奇社区，TVBox与影视资源交流地"
-      }
-    ]
-  },
-  {
-    "section": "优质导航",
-    "items": [
-      {
-        "title": "炫猿",
-        "url": "https://xydh.fun/",
-        "desc": "全面，好用",
-        "data-desc": "全面，好用导航"
-      },
-      {
-        "title": "爱路",
-        "url": "https://ipath8.com/",
-        "desc": "简洁无广清爽",
-        "data-desc": "简洁无广清爽导航"
-      },
-      {
-        "title": "咪咕鱼",
-        "url": "https://www.miguyu.com/",
-        "desc": "轻量便捷快速",
-        "data-desc": "轻量便捷快速导航，让搜索更简单"
-      },
-      {
-        "title": "爱达",
-        "url": "https://adzhp.cc/",
-        "desc": "高效工具集锦",
-        "data-desc": "专注收集好用、高效的工具站点，提升办公效率"
-      },
-      {
-        "title": "24K",
-        "url": "https://24kdh.vip/",
-        "desc": "精品资源导航",
-        "data-desc": "全网热点与精品资源一站式导航，发现价值内容"
-      },
-      {
-        "title": "懂窝",
-        "url": "https://www.ddddwo.com",
-        "desc": "综合资源社区",
-        "data-desc": "懂生活，也懂你需要的各类资源，综合分享社区"
-      },
-      {
-        "title": "睿搜",
-        "url": "https://www.ruisou121.com",
-        "desc": "资源大合集",
-        "data-desc": "睿智搜索，资源大合集，各类网盘文件与素材"
-      },
-      {
-        "title": "硬核指南",
-        "url": "https://yinghezhinan.com",
-        "desc": "硬核资源手册",
-        "data-desc": "极客与硬核玩家的资源指南，提供深度内容索引"
-      },
-      {
-        "title": "奇趣",
-        "url": "https://fuun.fun",
-        "desc": "趣味网站精选",
-        "data-desc": "收集世间奇趣、好玩又沙雕的网站，探索互联网趣味"
-      }
-    ]
-  },
-  {
-    "section": "Dark Web",
-    "items": [
-      {
-        "title": "长安不夜城",
-        "url": "http://cabyceogpsji73sske5nvo45mdrkbz4m3qd3iommf3zaaa6izg3j2cqd.onion/#/checking?redirect=%2Fhome",
-        "desc": "中文社区",
-        "data-desc": "深网中知名的中文综合性交流社区与资源分享平台"
-      },
-      {
-        "title": "Hidden Wiki",
-        "url": "http://zqktlwiuavvvqqt4ybvgvi7tyo4hjl5xgfuvpdf6otjiycgwqbym2qad.onion/wiki/index.php/Main_Page",
-        "desc": "百科导航",
-        "data-desc": "暗网中最具代表性的百科全书式导航站点，收录各类隐藏服务链接"
-      }
-    ]
-  }
-]
+        "desc": "全球
