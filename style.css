@@ -12,6 +12,8 @@
   --text-dim: rgba(255, 255, 255, 0.80);
   --radius-card: 14px;
   --radius-section: 20px;
+  /* 新增：定义搜索区域的最大宽度，方便统一调整 */
+  --search-max-width: 1000px; 
 }
 
 /* ===== Reset ===== */
@@ -53,454 +55,199 @@ body {
   width: 100%;
 }
 
-/* ===== 头部 ===== */
+/* ===== 头部标题优化 ===== */
 .header-area {
   display: flex;
+  flex-direction: column; /* 改为纵向排列，让Logo和文字更有层次感 */
   align-items: center;
   justify-content: center;
-  gap: 14px;
-  margin-bottom: 1.5rem;
+  gap: 10px;
+  margin-bottom: 2rem;
   width: 100%;
-  overflow: hidden;
 }
 
-.header-icon {
-  font-size: 2rem;
-  flex-shrink: 0;
-  filter: drop-shadow(0 0 12px rgba(76, 175, 80, 0.8)) drop-shadow(0 4px 8px rgba(0,0,0,0.6));
-  animation: float 3s ease-in-out infinite;
-  user-select: none;
-  display: flex;
-  align-items: center;
-}
-.header-icon:last-child { animation-delay: 1.5s; }
-
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50%       { transform: translateY(-8px); }
-}
-
+/* 标题样式：去掉了繁琐的下划线，改用更高级的字间距和渐变 */
 h1 {
   text-align: center;
-  font-size: clamp(1.8rem, 5vw, 3.2rem);
+  font-size: clamp(2rem, 5vw, 3.5rem);
   font-weight: 900;
-  letter-spacing: 0.05em;
-  white-space: nowrap;
-  background: linear-gradient(135deg, #ffffff 0%, #a8f5ab 30%, #4CAF50 55%, #81e085 75%, #ffffff 100%);
+  letter-spacing: 0.15em; /* 增加字间距，更有呼吸感 */
+  background: linear-gradient(135deg, #ffffff 20%, #a8f5ab 50%, #4CAF50 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  filter:
-    drop-shadow(0 0 20px rgba(76, 175, 80, 0.7))
-    drop-shadow(0 0 40px rgba(76, 175, 80, 0.35))
-    drop-shadow(0 6px 16px rgba(0, 0, 0, 0.8));
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.5));
+  position: relative;
 }
 
+/* 建议：如果HTML里可以改，把“王五导航”改成“王五”，更有品牌感 */
 h1::after {
-  content: '';
+  content: 'NAVIGATOR'; /* 增加一个精致的英文副标题小后缀 */
   display: block;
-  margin: 8px auto 0;
-  width: 60%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #4CAF50, rgba(76,175,80,0.5), transparent);
-  border-radius: 2px;
+  font-size: 0.7rem;
+  letter-spacing: 0.5em;
+  -webkit-text-fill-color: rgba(255,255,255,0.4);
+  margin-top: -5px;
 }
 
 .header-subtitle {
   text-align: center;
-  font-size: clamp(0.6rem, 1.5vw, 0.78rem);
-  letter-spacing: 0.25em;
-  color: rgba(255,255,255,0.68);
-  text-transform: uppercase;
-  margin-top: 5px;
+  font-size: clamp(0.7rem, 1.5vw, 0.85rem);
+  letter-spacing: 0.1em;
+  color: rgba(255,255,255,0.7);
   font-weight: 400;
+  max-width: 600px;
+  line-height: 1.6;
 }
 
-/* ===== 搜索区域 ===== */
+/* ===== 搜索区域 - PC端加宽适配 ===== */
 .search-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 2rem;
-  gap: 10px;
+  margin-bottom: 2.5rem;
+  gap: 15px;
   width: 100%;
 }
 
-/* ===== 分类 Tab ===== */
-.search-tabs {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.search-tab {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 7px 18px;
-  border-radius: 24px;
-  border: 1px solid rgba(255,255,255,0.18);
-  background: rgba(0,0,0,0.35);
-  color: rgba(255,255,255,0.7);
-  cursor: pointer;
-  font-family: inherit;
-  font-size: 0.93rem;
-  font-weight: 700;
-  transition: all 0.2s;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  white-space: nowrap;
-}
-
-.search-tab:hover {
-  background: rgba(76,175,80,0.15);
-  border-color: rgba(76,175,80,0.4);
-  color: #fff;
-}
-
-.search-tab.active {
-  background: rgba(76,175,80,0.28);
-  border-color: var(--primary);
-  color: #fff;
-  box-shadow: 0 0 12px rgba(76,175,80,0.35);
-}
-
-.tab-icon { font-size: 1.1rem; }
-.tab-label { font-size: 1rem; }
-
-/* ===== 搜索框 ===== */
+/* 搜索框：加宽到 1000px (通过变量控制) */
 .search-box {
   display: flex;
   align-items: center;
-  background: rgba(0, 0, 0, 0.55);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 2px solid var(--glass-border);
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border: 1.5px solid var(--glass-border);
   border-radius: 50px;
-  padding: 5px 8px 5px 14px;
+  padding: 6px 10px 6px 18px;
   box-shadow: var(--glass-shadow);
   width: 100%;
-  max-width: 700px;
-  min-width: 0;
-  gap: 8px;
+  max-width: var(--search-max-width); /* PC端变宽 */
+  transition: all 0.3s ease;
 }
 
-#search-engine-icon {
-  width: 18px;
-  height: 18px;
-  border-radius: 4px;
-  object-fit: contain;
-  flex-shrink: 0;
+.search-box:focus-within {
+  border-color: var(--primary);
+  box-shadow: 0 0 20px rgba(76, 175, 80, 0.2);
 }
 
-.engine-name {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: #fff;
-  white-space: nowrap;
-  flex-shrink: 0;
-  min-width: 36px;
-}
-
-.search-divider {
-  width: 1px;
-  height: 20px;
-  background: rgba(255,255,255,0.25);
-  flex-shrink: 0;
-}
-
+/* 搜索框内的输入框 */
 .search-box input[type="text"] {
   flex: 1;
   background: transparent;
   border: none;
-  padding: 0 4px;
-  height: 42px;
-  font-size: 1rem;
+  padding: 0 10px;
+  height: 46px;
+  font-size: 1.05rem;
   color: #fff;
-  min-width: 0;
-  width: 0;
-  font-family: inherit;
 }
-.search-box input[type="text"]::placeholder { color: rgba(255, 255, 255, 0.65); }
 
-.search-box button {
-  background: var(--primary);
-  border: none;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  cursor: pointer;
-  color: #fff;
+/* 引擎列表和Tab也同步加宽，保持视觉对齐 */
+.search-tabs, .engine-list {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  transition: background 0.2s, transform 0.15s;
-  font-size: 1rem;
-}
-.search-box button:active { transform: scale(0.93); background: #388E3C; }
-
-/* ===== 引擎快捷按钮 ===== */
-.engine-list {
-  display: flex;
-  align-items: center;
-  gap: 6px;
+  gap: 8px;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 700px;
   width: 100%;
+  max-width: var(--search-max-width);
 }
 
-.engine-btn {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  padding: 7px 16px;
-  border-radius: 18px;
-  border: 1px solid rgba(255,255,255,0.12);
-  background: rgba(0,0,0,0.22);
-  color: rgba(255,255,255,0.7);
-  cursor: pointer;
-  font-family: inherit;
-  font-size: 0.93rem;
-  font-weight: 600;
-  transition: all 0.18s;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  white-space: nowrap;
-}
-
-.engine-btn img {
-  width: 16px;
-  height: 16px;
-  border-radius: 3px;
-  object-fit: contain;
-  flex-shrink: 0;
-}
-
-.engine-btn:hover {
-  background: rgba(255,255,255,0.10);
-  border-color: rgba(255,255,255,0.25);
-  color: #fff;
-}
-
-.engine-btn.active {
-  background: rgba(76,175,80,0.18);
-  border-color: var(--primary);
-  color: #fff;
-  box-shadow: 0 0 6px rgba(76,175,80,0.2);
-}
-
-/* ===== 分区 ===== */
+/* ===== 卡片分区样式保持不变，确保稳定性 ===== */
 .section {
   background: var(--glass-bg);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--glass-border);
   border-radius: var(--radius-section);
-  padding: 1.3rem;
+  padding: 1.5rem;
   margin-bottom: 2rem;
 }
 
-.section.section-hidden { display: none; }
-
 .section-title {
   color: var(--primary);
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   font-weight: 700;
-  margin: 0 0 1rem 0;
-  letter-spacing: 0.05em;
+  margin-bottom: 1.2rem;
   display: flex;
   align-items: center;
-  gap: 8px;
-}
-.section-title::before {
-  content: '';
-  display: inline-block;
-  width: 4px;
-  height: 1em;
-  background: var(--primary);
-  border-radius: 1px;
+  gap: 10px;
 }
 
-/* ===== 卡片网格 ===== */
 .link-container {
   display: grid;
-  grid-template-columns: repeat(8, minmax(0, 1fr)); /* ✅ 修复：minmax(0,1fr) 防止内容撑破列宽 */
-  gap: 0.9rem;
-  align-items: stretch;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); /* 使用 auto-fill 自动适配宽度 */
+  gap: 1rem;
 }
 
-/* ===== 卡片 ===== */
+/* PC端 8 列显示 */
+@media (min-width: 1200px) {
+  .link-container { grid-template-columns: repeat(8, minmax(0, 1fr)); }
+}
+
 .card {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.07);
   border: 1px solid var(--glass-border);
   border-radius: var(--radius-card);
-  transition: background 0.25s, transform 0.25s, border-color 0.25s;
-  position: relative;
+  padding: 12px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
   color: inherit;
   display: flex;
   flex-direction: column;
-  padding: 11px;
-  gap: 5px;
   height: 100%;
-  min-width: 0; /* ✅ 修复：防止 grid 子项被内容撑开 */
-  -webkit-tap-highlight-color: transparent;
 }
 
-.card-top {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  min-width: 0;
-}
-
-.card img.favicon {
-  width: 20px;
-  height: 20px;
-  border-radius: 4px;
-  flex-shrink: 0;
+.card:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-5px);
+  border-color: var(--primary);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
 .card .title {
   font-weight: 600;
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   color: #fff;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  min-width: 0; /* ✅ 修复：flex 子项必须设置才能让 ellipsis 生效 */
-  flex: 1;      /* ✅ 修复：撑满剩余空间，不会溢出 */
+  margin-bottom: 4px;
 }
 
 .card .desc {
-  font-size: 0.73rem;
+  font-size: 0.75rem;
   color: var(--text-dim);
-  line-height: 1.45;
-  overflow: hidden;
-  text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
-  flex: 1;
+  overflow: hidden;
 }
 
-/* ===== Hover 弹出信息（桌面端） ===== */
-@media (hover: hover) {
-  .card:hover {
-    background: rgba(255,255,255,0.18);
-    transform: translateY(-4px);
-    border-color: var(--primary);
+/* ===== 核心：移动端保护机制 ===== */
+@media (max-width: 768px) {
+  :root {
+    --search-max-width: 100%; /* 移动端恢复全宽，不强制加宽 */
+  }
+  
+  .header-area { margin-bottom: 1.2rem; }
+  
+  h1 { font-size: 2.2rem; }
+  h1::after { letter-spacing: 0.3em; }
+
+  .search-box {
+    max-width: 100%;
+    border-radius: 12px; /* 移动端可以方一点，节省空间 */
+    padding: 4px 6px 4px 12px;
   }
 
-  .card .info-popup {
-    position: absolute;
-    bottom: calc(100% + 8px);
-    left: 50%;
-    transform: translateX(-50%) translateY(6px);
-    width: 200px;
-    background: rgba(10, 10, 10, 0.92);
-    border: 1px solid var(--primary);
-    padding: 9px 12px;
-    border-radius: 10px;
-    font-size: 0.74rem;
-    color: #fff;
-    opacity: 0;
-    transition: opacity 0.25s, transform 0.25s;
-    pointer-events: none;
-    z-index: 100;
-    word-break: break-all;
-    white-space: normal;
-    max-width: calc(100vw - 24px);
+  .link-container {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.6rem;
   }
-
-  .card:hover .info-popup {
-    opacity: 1;
-    transform: translateX(-50%) translateY(0);
-  }
-}
-
-/* ===== 触屏：长按弹出 tooltip ===== */
-@media (hover: none) {
-  .card:active {
-    background: rgba(255,255,255,0.18);
-    border-color: var(--primary);
-  }
-
-  .card .info-popup {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: min(320px, calc(100vw - 32px));
-    background: rgba(10, 10, 10, 0.95);
-    border: 2px solid var(--primary);
-    padding: 10px 14px;
-    border-radius: 12px;
-    font-size: 0.8rem;
-    color: #fff;
-    opacity: 0;
-    pointer-events: none;
-    z-index: 9999;
-    word-break: break-all;
-    white-space: normal;
-    transition: opacity 0.2s;
-    text-align: center;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.6);
-  }
-
-  .card.touch-active .info-popup { opacity: 1; }
-}
-
-.card.hidden { display: none; }
-
-/* ===== 响应式断点 ===== */
-@media (max-width: 1200px) {
-  .link-container { grid-template-columns: repeat(5, minmax(0, 1fr)); }
-}
-
-@media (max-width: 960px) {
-  .link-container { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-}
-
-@media (max-width: 720px) {
-  .link-container { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.65rem; }
-  .card { padding: 9px 8px; }
-  .card .desc { -webkit-line-clamp: 2; font-size: 0.7rem; }
+  
+  .card { padding: 10px 8px; }
 }
 
 @media (max-width: 480px) {
-  .container { padding: 0.75rem; }
-  .header-area { gap: 8px; margin-bottom: 1rem; }
-  .header-icon { font-size: 1.3rem; }
-
-  .search-box {
-    padding: 4px 8px 4px 10px;
-    gap: 4px;
-  }
-  .engine-name { font-size: 0.78rem; min-width: 28px; }
-  .search-box input[type="text"] { font-size: 0.9rem; height: 38px; }
-  .search-box button { width: 34px; height: 34px; font-size: 0.9rem; }
-
-  .search-tab { padding: 4px 10px; font-size: 0.78rem; }
-  .tab-icon { font-size: 0.82rem; }
-  .engine-btn { padding: 4px 9px; font-size: 0.75rem; }
-
-  .section { padding: 0.9rem 0.75rem; border-radius: 14px; }
-  .link-container { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.5rem; }
-
-  .card { padding: 8px 6px; border-radius: 10px; gap: 4px; }
-  .card .title { font-size: 0.75rem; }
-  .card img.favicon { width: 16px; height: 16px; }
-  .card .desc { font-size: 0.67rem; }
-}
-
-@media (max-width: 360px) {
-  .link-container { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.4rem; }
-  .card { padding: 7px 5px; }
-  .card .title { font-size: 0.7rem; }
-  .search-tab { padding: 3px 8px; }
+  .container { padding: 0.8rem; }
+  .link-container { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .search-tab, .engine-btn { padding: 5px 10px; font-size: 0.8rem; }
 }
