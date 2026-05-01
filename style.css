@@ -182,7 +182,7 @@ h1::after {
   padding: 5px 8px 5px 14px;
   box-shadow: var(--glass-shadow);
   width: 100%;
-  max-width: 700px;
+  max-width: 100%;
   min-width: 0;
   gap: 8px;
 }
