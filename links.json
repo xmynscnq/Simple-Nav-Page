@@ -498,4 +498,496 @@
       {
         "title": "YouTube",
         "url": "https://www.youtube.com/",
-        "desc": "全球
+        "desc": "全球最大视频平台",
+        "data-desc": "全球最大视频平台，油管，涵盖教程、娱乐、新闻、直播"
+      },
+      {
+        "title": "哔哩哔哩",
+        "url": "https://www.bilibili.com/",
+        "desc": "视频、动漫、弹幕",
+        "data-desc": "视频弹幕网站，涵盖动漫、学习与娱乐，B站、b站"
+      },
+      {
+        "title": "Netflix",
+        "url": "https://www.netflix.com/",
+        "desc": "流媒体影视平台",
+        "data-desc": "全球最大流媒体影视平台，Netflix，原创剧集、电影、纪录片"
+      },
+      {
+        "title": "Disney+",
+        "url": "https://www.disneyplus.com/",
+        "desc": "迪士尼流媒体",
+        "data-desc": "迪士尼旗下流媒体平台，Disney+，漫威、星球大战、皮克斯"
+      },
+      {
+        "title": "HBO Max",
+        "url": "https://www.max.com/",
+        "desc": "HBO流媒体平台",
+        "data-desc": "HBO 旗下流媒体平台，Max，美剧、电影、纪录片，权力的游戏"
+      },
+      {
+        "title": "腾讯视频",
+        "url": "https://v.qq.com/",
+        "desc": "国内主流视频平台",
+        "data-desc": "腾讯旗下主流视频平台，腾讯视频，国产剧、综艺、电影"
+      },
+      {
+        "title": "优酷",
+        "url": "https://www.youku.com/",
+        "desc": "视频与综艺平台",
+        "data-desc": "阿里旗下视频平台，优酷，影视剧、综艺节目在线观看"
+      },
+      {
+        "title": "爱奇艺",
+        "url": "https://www.iqiyi.com/",
+        "desc": "国内影视平台",
+        "data-desc": "百度旗下影视平台，爱奇艺，国产剧、综艺、动漫在线观看"
+      },
+      {
+        "title": "芒果TV",
+        "url": "https://www.mgtv.com/",
+        "desc": "湖南卫视官方平台",
+        "data-desc": "湖南卫视官方流媒体平台，芒果TV，综艺、偶像剧内容丰富"
+      },
+      {
+        "title": "咪咕视频",
+        "url": "https://www.migu.cn/",
+        "desc": "中国移动视频平台",
+        "data-desc": "中国移动旗下视频平台，咪咕视频，体育赛事直播资源丰富"
+      },
+      {
+        "title": "Twitch",
+        "url": "https://www.twitch.tv/",
+        "desc": "游戏直播平台",
+        "data-desc": "全球最大游戏与创意直播平台，Twitch，电竞、主播、即时互动"
+      },
+      {
+        "title": "斗鱼",
+        "url": "https://www.douyu.com/",
+        "desc": "国内游戏直播",
+        "data-desc": "国内知名游戏直播平台，斗鱼，电竞赛事、游戏主播"
+      },
+      {
+        "title": "虎牙",
+        "url": "https://www.huya.com/",
+        "desc": "游戏、真人秀直播",
+        "data-desc": "国内知名游戏直播平台，虎牙，电竞、真人秀、一起看"
+      },
+      {
+        "title": "动漫花园",
+        "url": "https://dmhy.org/",
+        "desc": "动漫字幕资源下载",
+        "data-desc": "动漫字幕组资源下载站，动漫花园，BT、磁力链接"
+      },
+      {
+        "title": "AGE动漫",
+        "url": "https://www.agemys.net/",
+        "desc": "在线动漫观看",
+        "data-desc": "在线动漫观看平台，AGE动漫，日漫、国漫，更新及时"
+      },
+      {
+        "title": "樱花动漫",
+        "url": "https://www.yhdm.tv/",
+        "desc": "免费在线动漫",
+        "data-desc": "免费在线动漫观看平台，樱花动漫，日本动漫、国漫资源"
+      }
+    ]
+  },
+  {
+    "section": "资讯",
+    "items": [
+      {
+        "title": "少数派",
+        "url": "https://sspai.com/",
+        "desc": "数字生活方式媒体",
+        "data-desc": "专注效率与数字生活方式的中文媒体，App推荐、科技资讯，少数派"
+      },
+      {
+        "title": "即刻",
+        "url": "https://okjike.com/",
+        "desc": "兴趣社区与资讯",
+        "data-desc": "国内兴趣驱动社区，即刻，科技、设计、生活话题实时动态"
+      },
+      {
+        "title": "虎嗅",
+        "url": "https://www.huxiu.com/",
+        "desc": "科技商业深度资讯",
+        "data-desc": "国内科技商业深度分析媒体，虎嗅，互联网行业深度报道"
+      },
+      {
+        "title": "36氪",
+        "url": "https://36kr.com/",
+        "desc": "科技创业资讯",
+        "data-desc": "国内科技创业资讯媒体，36氪，融资动态、行业报告、创业公司"
+      },
+      {
+        "title": "钛媒体",
+        "url": "https://www.tmtpost.com/",
+        "desc": "科技财经深度报道",
+        "data-desc": "国内科技财经深度报道媒体，钛媒体，TMT行业深度分析"
+      },
+      {
+        "title": "爱范儿",
+        "url": "https://www.ifanr.com/",
+        "desc": "科技消费品资讯",
+        "data-desc": "专注科技消费品与生活方式的媒体，爱范儿，新品评测与资讯"
+      },
+      {
+        "title": "果壳",
+        "url": "https://www.guokr.com/",
+        "desc": "科学科普社区",
+        "data-desc": "科学科普内容社区，果壳，有趣的科学知识与生活谣言辟谣"
+      },
+      {
+        "title": "国家地理中文网",
+        "url": "https://www.nationalgeographic.com.cn/",
+        "desc": "地理科学人文内容",
+        "data-desc": "国家地理杂志中文官网，自然地理、探险、科学、人文摄影"
+      },
+      {
+        "title": "Hacker News",
+        "url": "https://news.ycombinator.com/",
+        "desc": "科技创业讨论社区",
+        "data-desc": "YC 孵化器旗下科技创业讨论社区，Hacker News，技术人必读"
+      },
+      {
+        "title": "Product Hunt",
+        "url": "https://www.producthunt.com/",
+        "desc": "新产品发现社区",
+        "data-desc": "全球新产品发现与讨论社区，Product Hunt，每日最新科技产品"
+      },
+      {
+        "title": "The Verge",
+        "url": "https://www.theverge.com/",
+        "desc": "科技评测资讯",
+        "data-desc": "美国主流科技评测与资讯媒体，The Verge，手机、电脑、AI资讯"
+      },
+      {
+        "title": "Wired",
+        "url": "https://www.wired.com/",
+        "desc": "科技文化深度报道",
+        "data-desc": "专注科技与文化的深度报道媒体，Wired，连线杂志"
+      },
+      {
+        "title": "Reuters",
+        "url": "https://www.reuters.com/",
+        "desc": "路透社国际新闻",
+        "data-desc": "路透社国际新闻权威来源，Reuters，财经、政治、科技快讯"
+      },
+      {
+        "title": "Bloomberg",
+        "url": "https://www.bloomberg.com/",
+        "desc": "财经商业资讯",
+        "data-desc": "全球领先财经商业资讯媒体，Bloomberg，彭博社，金融数据"
+      },
+      {
+        "title": "Medium",
+        "url": "https://medium.com/",
+        "desc": "高质量文章创作平台",
+        "data-desc": "英文高质量文章创作与阅读平台，Medium，科技、设计、创业"
+      },
+      {
+        "title": "Reddit",
+        "url": "https://www.reddit.com/",
+        "desc": "全球最大论坛社区",
+        "data-desc": "全球最大论坛聚合社区，Reddit，涵盖科技、游戏、新闻等话题"
+      }
+    ]
+  },
+  {
+    "section": "国外",
+    "items": [
+      {
+        "title": "Twitter / X",
+        "url": "https://twitter.com/",
+        "desc": "全球实时社交平台",
+        "data-desc": "全球实时社交媒体平台，Twitter、X，推特，热点话题与实时动态"
+      },
+      {
+        "title": "Instagram",
+        "url": "https://www.instagram.com/",
+        "desc": "图片视频社交平台",
+        "data-desc": "Meta 旗下图片与短视频社交平台，Instagram，Ins，摄影与生活分享"
+      },
+      {
+        "title": "Facebook",
+        "url": "https://www.facebook.com/",
+        "desc": "全球最大社交网络",
+        "data-desc": "Meta 旗下全球最大社交网络平台，Facebook，fb"
+      },
+      {
+        "title": "Threads",
+        "url": "https://www.threads.net/",
+        "desc": "Meta文字社交平台",
+        "data-desc": "Meta 旗下文字社交平台，Threads，类 Twitter 短内容分享"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/",
+        "desc": "职场社交求职",
+        "data-desc": "全球最大职场社交与求职平台，LinkedIn，领英，职业人脉拓展"
+      },
+      {
+        "title": "Pinterest",
+        "url": "https://www.pinterest.com/",
+        "desc": "图片灵感收集",
+        "data-desc": "图片灵感收集与分享平台，Pinterest，设计、摄影、时尚、装修"
+      },
+      {
+        "title": "Tumblr",
+        "url": "https://www.tumblr.com/",
+        "desc": "博客与创意社区",
+        "data-desc": "轻博客与创意内容社区，Tumblr，二次元、艺术、个性化博客"
+      },
+      {
+        "title": "Coursera",
+        "url": "https://www.coursera.org/",
+        "desc": "在线课程学习",
+        "data-desc": "全球顶级在线课程平台，Coursera，名校公开课、职业技能认证"
+      },
+      {
+        "title": "Duolingo",
+        "url": "https://www.duolingo.com/",
+        "desc": "语言学习应用",
+        "data-desc": "游戏化语言学习平台，Duolingo，多邻国，支持英语、日语等多语言"
+      },
+      {
+        "title": "Khan Academy",
+        "url": "https://www.khanacademy.org/",
+        "desc": "免费在线教育平台",
+        "data-desc": "免费在线教育平台，可汗学院，数学、科学、编程等课程"
+      },
+      {
+        "title": "Dropbox",
+        "url": "https://www.dropbox.com/",
+        "desc": "云端文件存储同步",
+        "data-desc": "云端文件存储与同步服务，Dropbox，跨设备文件共享与协作"
+      },
+      {
+        "title": "Slack",
+        "url": "https://slack.com/",
+        "desc": "团队协作沟通",
+        "data-desc": "团队协作与即时沟通工具，Slack，频道、集成、文件共享"
+      },
+      {
+        "title": "Trello",
+        "url": "https://trello.com/",
+        "desc": "看板式项目管理",
+        "data-desc": "看板式项目管理工具，Trello，任务卡片、团队协作、进度追踪"
+      },
+      {
+        "title": "Amazon",
+        "url": "https://www.amazon.com/",
+        "desc": "全球最大电商平台",
+        "data-desc": "全球最大综合电商平台，Amazon，亚马逊，海淘、正版图书"
+      }
+    ]
+  },
+  {
+    "section": "购物 / 生活",
+    "items": [
+      {
+        "title": "淘宝",
+        "url": "https://www.taobao.com/",
+        "desc": "国内最大C2C电商",
+        "data-desc": "阿里巴巴旗下国内最大 C2C 电商平台，淘宝，购物、二手、闲置"
+      },
+      {
+        "title": "京东",
+        "url": "https://www.jd.com/",
+        "desc": "正品自营电商",
+        "data-desc": "国内主流自营电商平台，京东，JD，正品保障，3C、家电、生鲜"
+      },
+      {
+        "title": "拼多多",
+        "url": "https://www.pinduoduo.com/",
+        "desc": "低价拼团电商",
+        "data-desc": "低价拼团社交电商平台，拼多多，农产品、百货、工厂直销"
+      },
+      {
+        "title": "闲鱼",
+        "url": "https://www.xianyu.com/",
+        "desc": "二手交易平台",
+        "data-desc": "阿里旗下二手物品交易平台，闲鱼，闲置转让、捡漏好物"
+      },
+      {
+        "title": "得物",
+        "url": "https://www.dewu.com/",
+        "desc": "潮流球鞋正品鉴定",
+        "data-desc": "潮流正品交易平台，得物，球鞋鉴定、潮牌、限定商品"
+      },
+      {
+        "title": "大众点评",
+        "url": "https://www.dianping.com/",
+        "desc": "餐饮生活点评",
+        "data-desc": "美团旗下餐饮与生活消费点评平台，大众点评，美食推荐、团购"
+      },
+      {
+        "title": "美团",
+        "url": "https://www.meituan.com/",
+        "desc": "外卖、酒店、到店",
+        "data-desc": "生活服务平台，美团，外卖配送、酒店预订、电影票、到店团购"
+      },
+      {
+        "title": "饿了么",
+        "url": "https://www.ele.me/",
+        "desc": "外卖配送平台",
+        "data-desc": "阿里旗下外卖配送平台，饿了么，餐食外卖、超市配送"
+      },
+      {
+        "title": "高德地图",
+        "url": "https://www.amap.com/",
+        "desc": "导航与地图服务",
+        "data-desc": "阿里旗下导航与地图服务，高德地图，驾车、步行、公交、打车"
+      },
+      {
+        "title": "百度地图",
+        "url": "https://map.baidu.com/",
+        "desc": "百度地图导航",
+        "data-desc": "百度旗下地图导航服务，百度地图，路线规划、周边搜索、实时路况"
+      },
+      {
+        "title": "12306",
+        "url": "https://www.12306.cn/",
+        "desc": "高铁火车票购票",
+        "data-desc": "中国铁路官方购票平台，12306，高铁、动车、火车票在线购买"
+      },
+      {
+        "title": "航旅纵横",
+        "url": "https://www.umetrip.com/",
+        "desc": "航班查询与管理",
+        "data-desc": "民航官方出品航班查询与管理应用，航旅纵横，实时航班动态"
+      }
+    ]
+  },
+  {
+    "section": "游戏 / 娱乐",
+    "items": [
+      {
+        "title": "Steam",
+        "url": "https://store.steampowered.com/",
+        "desc": "PC游戏平台",
+        "data-desc": "全球最大 PC 游戏数字发行平台，Steam，V社，游戏购买与社区"
+      },
+      {
+        "title": "Epic Games",
+        "url": "https://store.epicgames.com/",
+        "desc": "游戏平台，常送免费游戏",
+        "data-desc": "Epic Games 游戏商店，Epic，每周免费游戏，堡垒之夜开发商"
+      },
+      {
+        "title": "GOG",
+        "url": "https://www.gog.com/",
+        "desc": "无DRM正版游戏",
+        "data-desc": "无 DRM 限制的正版游戏平台，GOG，大量经典老游戏，CD Projekt"
+      },
+      {
+        "title": "PlayStation",
+        "url": "https://www.playstation.com/",
+        "desc": "索尼游戏平台",
+        "data-desc": "索尼旗下游戏平台，PlayStation，PS5，PS4，PSN商店"
+      },
+      {
+        "title": "Xbox",
+        "url": "https://www.xbox.com/",
+        "desc": "微软游戏平台",
+        "data-desc": "微软旗下游戏平台，Xbox，Game Pass，PC与主机跨平台游戏"
+      },
+      {
+        "title": "Nintendo",
+        "url": "https://www.nintendo.com/",
+        "desc": "任天堂官方网站",
+        "data-desc": "任天堂官方网站，Nintendo，Switch，马里奥、塞尔达、宝可梦"
+      },
+      {
+        "title": "3DM",
+        "url": "https://www.3dmgame.com/",
+        "desc": "游戏资讯与下载",
+        "data-desc": "国内主流游戏资讯与下载平台，3DM，游民星空，游戏新闻、攻略"
+      },
+      {
+        "title": "NGA玩家社区",
+        "url": "https://nga.178.com/",
+        "desc": "游戏论坛社区",
+        "data-desc": "国内知名游戏论坛社区，NGA，魔兽、网游、单机游戏深度讨论"
+      },
+      {
+        "title": "IGN",
+        "url": "https://www.ign.com/",
+        "desc": "国际游戏评测媒体",
+        "data-desc": "全球知名游戏评测与资讯媒体，IGN，游戏评分、预告片、攻略"
+      },
+      {
+        "title": "米哈游",
+        "url": "https://www.mihoyo.com/",
+        "desc": "原神、星铁、崩坏",
+        "data-desc": "米哈游官方网站，原神、崩坏：星穹铁道、崩坏3，二次元游戏"
+      }
+    ]
+  },
+  {
+    "section": "其他导航",
+    "items": [
+      {
+        "title": "Hao123",
+        "url": "https://www.hao123.com/",
+        "desc": "综合导航站",
+        "data-desc": "老牌综合网址导航站，Hao123，好123，日常常用网站入口"
+      },
+      {
+        "title": "tool.lu",
+        "url": "https://tool.lu/",
+        "desc": "在线工具箱",
+        "data-desc": "在线开发者工具集合，tool.lu，代码格式化、加密、时间戳转换"
+      },
+      {
+        "title": "OSCHINA",
+        "url": "https://www.oschina.net/",
+        "desc": "开源中国技术社区",
+        "data-desc": "开源中国，OSCHINA，国内开源技术社区与开源软件聚合导航"
+      },
+      {
+        "title": "Awesome Lists",
+        "url": "https://github.com/sindresorhus/awesome",
+        "desc": "GitHub精选资源列表",
+        "data-desc": "GitHub 上最著名的精选资源合集，Awesome Lists，各领域优质资源"
+      },
+      {
+        "title": "AlternativeTo",
+        "url": "https://alternativeto.net/",
+        "desc": "软件替代品搜索",
+        "data-desc": "寻找软件替代品的导航平台，AlternativeTo，找免费开源替代工具"
+      },
+      {
+        "title": "小众软件",
+        "url": "https://www.appinn.com/",
+        "desc": "软件发现与推荐",
+        "data-desc": "小众软件发现与推荐社区，appinn，免费、实用、冷门软件推荐"
+      },
+      {
+        "title": "反斗软件",
+        "url": "https://www.apprcn.com/",
+        "desc": "正版软件促销信息",
+        "data-desc": "正版软件限免与促销信息聚合，反斗软件，捡漏付费软件免费版"
+      },
+      {
+        "title": "FMHY",
+        "url": "https://fmhy.net/",
+        "desc": "免费资源大全",
+        "data-desc": "全网最大免费资源导航合集，FMHY，涵盖工具、影视、学习、软件"
+      },
+      {
+        "title": "W3Schools",
+        "url": "https://www.w3schools.com/",
+        "desc": "Web技术教程导航",
+        "data-desc": "Web 开发技术教程与参考文档，W3Schools，HTML、CSS、JS入门"
+      },
+      {
+        "title": "saaslandingpage.com",
+        "url": "https://saaslandingpage.com/",
+        "desc": "优秀落地页设计精选",
+        "data-desc": "SaaS 产品落地页设计案例精选，saaslandingpage，设计灵感参考"
+      }
+    ]
+  }
+]
