@@ -96,8 +96,7 @@ https://api.xxx.com
 修改 `main.js`：
 
 ```js id="m9g4cq"
-const FAVICON_API = 'https://api.xxx.com/icons.duckduckgo.com/ip3/';
-const BG_API      = 'https://api.xxx.com/bing.img.run/rand.php?t=';
+const PROXY = 'https://api.xxx.com';
 ```
 
 ---
@@ -107,7 +106,7 @@ const BG_API      = 'https://api.xxx.com/bing.img.run/rand.php?t=';
 Worker 会代理以下资源：
 
 * 背景图：`bing.img.run`
-* 网站图标：`icons.duckduckgo.com`
+* 网站图标：`icons.duckduckgo.com`,`www.google.com`
 
 从而提升国内访问稳定性。
 
