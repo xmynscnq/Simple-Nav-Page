@@ -5,7 +5,7 @@
       {
         "title": "GitHub",
         "url": "https://github.com/dashboard",
-        "intranet": "https://gitee.com", //内网配置示例，不需要就删除此行即可
+        "intranet": "https://gitee.com",
         "desc": "代码托管、开源协作",
         "data-desc": "全球最大代码托管与开源协作平台，GitHub、git"
       },
