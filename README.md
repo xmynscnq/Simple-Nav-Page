@@ -24,6 +24,8 @@
 
 * 🌄 **随机背景图**：每次刷新自动切换背景
 
+* 🌐 **内外网地址切换**：默认外网，一键切换
+
 ---
 
 ## 🧑‍💻 适合人群
@@ -61,6 +63,10 @@
 * `data-desc`：用于站内定位关键词
 * `desc` ：网站下方的介绍
 * `url`：网站地址
+  
+* `intranet`:内网网址（可选）
+  若有内外网切换需求，则在"url" 下方加一行
+  "intranet": "输入您的内网网址",
   
  编辑 `main.js`：（可选）
  
@@ -140,7 +146,7 @@ Worker 会代理以下资源：
 
 👉 https://xmynscnq.github.io/Simple-Nav-Page
 
-![预览](https://github.com/user-attachments/assets/eb5a268b-30a5-46e0-9681-69b6ef3fe742)
+<img width="1920" height="919" alt="王五导航 (04 05 2026 09_29)" src="https://github.com/user-attachments/assets/36f545b3-b3f6-4b26-9038-f27df15476ef" />
 
 ---
 
