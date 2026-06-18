@@ -6,8 +6,7 @@
         "title": "GitHub",
         "url": "https://github.com/dashboard",
         "desc": "代码托管、开源协作",
-        "data-desc": "全球最大代码托管与开源协作平台，GitHub、git",
-        "icon": "icons/logos/github.svg"
+        "data-desc": "全球最大代码托管与开源协作平台，GitHub、git"
       },
       {
         "title": "哔哩哔哩",
@@ -91,8 +90,7 @@
         "title": "DeepSeek",
         "url": "https://chat.deepseek.com/",
         "desc": "国产顶级AI大模型",
-        "data-desc": "国产顶级 AI 大模型，深度思考、代码辅助，深度求索，DeepSeek R1",
-        "icon": "icons/logos/deepseek-copy-copy-copy-copy-copy.svg"
+        "data-desc": "国产顶级 AI 大模型，深度思考、代码辅助，深度求索，DeepSeek R1"
       },
       {
         "title": "Kimi",
