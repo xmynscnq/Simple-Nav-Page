@@ -110,7 +110,7 @@ https://api.xxx.com
 ```js id="m9g4cq"
 const PROXY = 'https://api.xxx.com';
 注意后面不要带有斜杠/
-当导航页显示兜底图标“黑白地球”时，表示worker异常。（duckduckgo默认图标为箭头，google默认图标为彩色地球，显示其中之一为正常）
+当导航页显示许多兜底图标“黑白地球”时，表示worker异常。（duckduckgo默认图标为箭头，google默认图标为彩色地球，显示其中之一为正常）
 ```
 
 ---
