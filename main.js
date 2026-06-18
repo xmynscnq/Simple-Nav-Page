@@ -63,7 +63,7 @@ function injectNetToggleBtn() {
 const isMobile = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent);
 const BG_API = isMobile
   ? 'https://imgapi.cn/api.php?zd=mobile&fl=fengjing&gs=images&t='
-  : 'https://imgapi.cn/api.php?fl=dongman&gs=images&t=';
+  : 'https://imgapi.cn/api.php?fl=fengjing&gs=images&t=';
 const LINKS_FILE = 'links.json';
 const DEFAULT_ICON = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiPjwvY2lyY2xlPjxwYXRoIGQ9Ik0yIDEyaDIwIj48L3BhdGg+PHBhdGggZD0iTTEyIDJhMTUuMyAxNS4zIDAgMCAxIDQgMTAgMTUuMyAxNS4zIDAgMCAxLTQgMTAgMTUuMyAxNS4zIDAgMCAxLTQtMTAgMTUuMyAxNS4zIDAgMCAxIDQtMTB6Ij48L3BhdGg+PC9zdmc+';
 
