@@ -667,6 +667,8 @@ body.night-mode .section-title::before {
   line-height: 1;
   padding: 0;
   user-select: none;
+  animation: float 3s ease-in-out infinite;
+  animation-delay: 1.5s; 
 }
 
 .theme-toggle-btn:hover {
