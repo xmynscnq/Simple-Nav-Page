@@ -38,7 +38,7 @@
 
 主页👉 https://xmynscnq.github.io/Simple-Nav-Page
 
-<img width="1920" height="919" alt="image" src="https://github.com/user-attachments/assets/90096ebe-3693-4178-b81c-4866a518215d" />
+<img width="1920" height="919" alt="王五导航 (24 06 2026 17_30)" src="https://github.com/user-attachments/assets/00db60cd-502b-425a-aed6-278d20d6c5f1" />
 
 后台👉https://xmynscnq.github.io/Simple-Nav-Page/admin
 
