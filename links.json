@@ -6,71 +6,61 @@
          "title": "哔哩哔哩",
         "url": "https://www.bilibili.com/",
         "desc": "视频、动漫、弹幕",
-        "data-desc": "视频弹幕网站，涵盖动漫、学习与娱乐、B站、b站",
-        "icon": "../icons/logos/bilibili.svg"
+        "data-desc": "视频弹幕网站，涵盖动漫、学习与娱乐、B站、b站"
       },
       {
         "title": "抖音",
         "url": "https://www.douyin.com/jingxuan",
         "desc": "短视频，精选",
-        "data-desc": "抖音精选短视频内容",
-        "icon": "../icons/logos/douyin.svg"
+        "data-desc": "抖音精选短视频内容"
       },
       {
         "title": "DeepSeek",
         "url": "https://chat.deepseek.com/",
         "desc": "国产最强AI",
-        "data-desc": "国产最强 AI 大模型，深度思考与代码辅助",
-        "icon": "../icons/logos/deepseek.svg"
+        "data-desc": "国产最强 AI 大模型，深度思考与代码辅助"
       },
       {
         "title": "Claude",
         "url": "https://claude.ai",
         "desc": "Anthropic AI助手",
-        "data-desc": "Anthropic 旗下 AI 助手，擅长分析与写作",
-        "icon": "../icons/logos/claude.svg"
+        "data-desc": "Anthropic 旗下 AI 助手，擅长分析与写作"
       },
       {
         "title": "ChatGPT",
         "url": "https://chatgpt.com/",
         "desc": "OpenAI AI助手",
-        "data-desc": "OpenAI 旗下 AI 对话助手",
-        "icon": "../icons/logos/chatgpt.svg"
+        "data-desc": "OpenAI 旗下 AI 对话助手"
       },
       {
         "title": "Github",
         "url": "https://github.com/dashboard",
         "desc": "代码托管、开源",
-        "data-desc": "全球最大代码托管与开源协作平台",
-        "icon": "../icons/logos/github.svg"
+        "data-desc": "全球最大代码托管与开源协作平台"
       },
       {
         "title": "Gmail",
         "url": "https://mail.google.com/mail/u/0/#inbox",
         "desc": "Google 邮箱",
-        "data-desc": "Google 旗下电子邮件服务，谷歌邮箱",
-        "icon": "../icons/logos/gmail.svg"
+        "data-desc": "Google 旗下电子邮件服务，谷歌邮箱"
       },
       {
         "title": "Cloudflare",
         "url": "https://dash.cloudflare.com",
         "desc": "CDN、网络安全",
-        "data-desc": "全球领先的 CDN 与网络安全服务、大善人",
-        "icon": "../icons/logos/cloudflare.svg"
+        "data-desc": "全球领先的 CDN 与网络安全服务、大善人"
       },
       {
         "title": "虎牙",
         "url": "https://www.huya.com/",
         "desc": "游戏、真人秀、一起看",
-        "data-desc": "国内知名游戏直播平台，游戏、真人秀、一起看",
-        "icon": "../icons/logos/huya.svg"
+        "data-desc": "国内知名游戏直播平台，游戏、真人秀、一起看"
       },
       {
         "title": "Youtube",
         "url": "https://www.youtube.com/",
         "desc": "全球最大视频平台",
-        "data-desc": "全球最大视频平台、油管",
-        "icon": "../icons/logos/youtube.svg"
+        "data-desc": "全球最大视频平台、油管"
       },
       {
         "title": "王五主页",
