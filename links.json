@@ -181,109 +181,122 @@
     ]
   },
   {
-    "section": "工具",
+    "section": "🔧工具",
     "items": [
       {
-        "title": "Figma",
-        "url": "https://www.figma.com/",
-        "desc": "UI设计、协作",
-        "data-desc": "专业 UI/UX 协作设计工具，原型图、设计稿、团队协作，Figma"
+        "title": "QQ邮箱",
+        "url": "https://mail.qq.com",
+        "desc": "腾讯邮箱",
+        "data-desc": "腾讯 QQ 邮箱服务"
       },
       {
-        "title": "即时设计",
-        "url": "https://js.design/",
-        "desc": "国产在线UI设计",
-        "data-desc": "国产在线 UI 设计工具，类 Figma，中文界面，即时设计"
+        "title": "QQ音乐",
+        "url": "https://y.qq.com",
+        "desc": "腾讯音乐平台",
+        "data-desc": "腾讯旗下在线音乐平台"
       },
       {
-        "title": "MasterGo",
-        "url": "https://mastergo.com/",
-        "desc": "团队协作设计工具",
-        "data-desc": "国产团队协作 UI 设计工具，支持原型与设计规范，MasterGo"
+        "title": "网易云音乐",
+        "url": "https://music.163.com",
+        "desc": "网易音乐、歌词",
+        "data-desc": "网易旗下在线音乐平台，歌词与评论闻名"
       },
       {
-        "title": "Canva",
-        "url": "https://www.canva.com/",
-        "desc": "简单图形设计",
-        "data-desc": "简单易用的在线图形设计工具，海报、PPT、社交图片，Canva可画"
+        "title": "地球仪",
+        "url": "https://www.webglearth.com/",
+        "desc": "3D在线地球",
+        "data-desc": "基于 WebGL 的在线3D地球仪"
       },
       {
-        "title": "TinyPNG",
-        "url": "https://tinypng.com/",
-        "desc": "图片压缩",
-        "data-desc": "在线图片无损压缩工具，支持 PNG、JPG、WebP 格式"
+        "title": "学信网",
+        "url": "https://www.chsi.com.cn",
+        "desc": "学历查询认证",
+        "data-desc": "中国高等教育学生信息网，学历查询认证"
       },
       {
-        "title": "Squoosh",
-        "url": "https://squoosh.app/",
-        "desc": "谷歌图片压缩",
-        "data-desc": "谷歌出品的在线图片压缩与格式转换工具，支持 WebP、AVIF"
+        "title": "征信查询",
+        "url": "https://www.pbccrc.org.cn",
+        "desc": "个人信用报告",
+        "data-desc": "中国人民银行征信中心，个人信用报告查询"
       },
       {
-        "title": "Remove.bg",
-        "url": "https://www.remove.bg/",
-        "desc": "AI一键抠图",
-        "data-desc": "AI 驱动一键去除图片背景，自动抠图，免费使用"
+        "title": "测速网",
+        "url": "https://www.speedtest.cn/",
+        "desc": "网络宽带测速",
+        "data-desc": "国内网络测速工具，检测宽带上下行速度"
       },
       {
-        "title": "Excalidraw",
-        "url": "https://excalidraw.com/",
-        "desc": "手绘风格白板",
-        "data-desc": "手绘风格在线白板工具，流程图、草图、思维导图，支持协作"
+        "title": "阿里图标",
+        "url": "https://www.iconfont.cn",
+        "desc": "矢量图标库",
+        "data-desc": "阿里巴巴矢量图标库"
       },
       {
-        "title": "ProcessOn",
-        "url": "https://www.processon.com/",
-        "desc": "在线流程图思维导图",
-        "data-desc": "国内主流在线流程图与思维导图工具，UML、原型图，ProcessOn"
+        "title": "Link3",
+        "url": "https://www.link3.cc/",
+        "desc": "创作者链接主页",
+        "data-desc": "Link3 创作者主页与社交链接平台"
       },
       {
-        "title": "PDF24",
-        "url": "https://www.pdf24.org/",
-        "desc": "免费PDF工具箱",
-        "data-desc": "免费在线 PDF 工具箱，合并、分割、压缩、转换，PDF24"
+        "title": "30tool",
+        "url": "https://30aitool.com/",
+        "desc": "AI工具集合",
+        "data-desc": "30种AI工具集合，提升效率",
+        "icon": "../icons/logos/30tool.svg"
       },
       {
-        "title": "Smallpdf",
-        "url": "https://smallpdf.com/",
-        "desc": "PDF转换压缩",
-        "data-desc": "在线 PDF 转换、压缩、合并、编辑工具，Smallpdf"
+        "title": "MikuTools",
+        "url": "https://tools.miku.ac/",
+        "desc": "在线工具箱",
+        "data-desc": "MikuTools 在线工具箱，涵盖多种实用功能"
       },
       {
-        "title": "Convertio",
-        "url": "https://convertio.co/",
-        "desc": "多格式文件转换",
-        "data-desc": "支持 300+ 格式的在线文件转换工具，图片、视频、音频、文档"
+        "title": "千盒工具",
+        "url": "https://1000tool.com",
+        "desc": "在线工具合集",
+        "data-desc": "千盒工具箱，多种在线实用工具合集"
       },
       {
-        "title": "Carbon",
-        "url": "https://carbon.now.sh/",
-        "desc": "代码截图美化",
-        "data-desc": "代码美化截图生成工具，支持多种主题与语言高亮，Carbon"
+        "title": "文字转语音",
+        "url": "https://ttsmaker.cn",
+        "desc": "TTS多语言配音",
+        "data-desc": "在线文字转语音，多语言多音色"
       },
       {
-        "title": "Regex101",
-        "url": "https://regex101.com/",
-        "desc": "正则表达式调试",
-        "data-desc": "在线正则表达式调试与测试工具，带详细解释，支持多语言"
+        "title": "PDF派",
+        "url": "https://www.pdfpai.com",
+        "desc": "PDF转换处理",
+        "data-desc": "PDF派，在线PDF转换与处理工具"
       },
       {
-        "title": "CyberChef",
-        "url": "https://gchq.github.io/CyberChef/",
-        "desc": "数据编解码瑞士军刀",
-        "data-desc": "GCHQ 出品的数据处理工具，编码、解码、加密、解密，CyberChef"
+        "title": "摆渡图床",
+        "url": "https://img.baidu.re",
+        "desc": "图片托管",
+        "data-desc": "免费无限图床，国内图片托管"
       },
       {
-        "title": "DeepL",
-        "url": "https://www.deepl.com/",
-        "desc": "高质量AI翻译",
-        "data-desc": "高质量 AI 驱动翻译工具，比谷歌翻译更自然流畅，支持多语言"
+        "title": "python",
+        "url": "https://www.python.org",
+        "desc": "自动化，通用",
+        "data-desc": "自动化工具，通用编程"
       },
       {
-        "title": "Google翻译",
-        "url": "https://translate.google.com/",
-        "desc": "谷歌多语言翻译",
-        "data-desc": "谷歌多语言即时翻译，支持 100+ 语言，图片翻译、网页翻译"
+        "title": "微PE工具箱",
+        "url": "https://www.wepe.com.cn",
+        "desc": "系统重装工具",
+        "data-desc": "系统重装工具"
+      },
+      {
+        "title": "FFmpeg",
+        "url": "https://ffmpeg.org",
+        "desc": "视频处理",
+        "data-desc": "压缩视频，格式转变"
+      },
+      {
+        "title": "Docker",
+        "url": "https://www.docker.com",
+        "desc": "容器化开发部署",
+        "data-desc": "Docker 容器化开发与部署平台"
       }
     ]
   },
