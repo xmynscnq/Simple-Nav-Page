@@ -1,4 +1,4 @@
-<img width="1920" height="919" alt="王五导航 (17 07 2026 10_27)" src="https://github.com/user-attachments/assets/b8b9e0d6-ab5a-4ca5-b3d4-d6421fb2f6de" />🔄 Language / 语言：**简体中文** | [English](README.en.md)
+🔄 Language / 语言：**简体中文** | [English](README.en.md)
 
 # 🌐 Simple Nav Page
 
