@@ -344,7 +344,17 @@ function filterLinks() {
         currentCategoryIndex = firstMatch;
         syncActiveTab(firstMatch);
         applyCategoryFilter();                     // 会移动标签行，重置 scrollLeft
-        if (tabsRow) tabsRow.scrollLeft = savedScrollLeft;  // 恢复滚动位置（可能被覆盖，但至少尝试）
+        const activeTab = categoryTabsRowEl
+  ? categoryTabsRowEl.querySelector('.category-tab-item.active')
+  : null;
+
+if (activeTab) {
+  activeTab.scrollIntoView({
+    behavior: 'smooth',
+    block: 'nearest',
+    inline: 'start'
+  });
+}
       }
     } else {
   if (state.saved) {
@@ -367,7 +377,7 @@ function filterLinks() {
     // ✅ 关键：让激活的标签滚动到居中可见位置（替代之前无效的 scrollLeft 恢复）
     const activeTab = categoryTabsRowEl ? categoryTabsRowEl.querySelector('.category-tab-item.active') : null;
     if (activeTab) {
-      activeTab.scrollIntoView({ behavior: 'instant', block: 'nearest', inline: 'center' });
+      activeTab.scrollIntoView({ behavior: 'instant', block: 'nearest', inline: 'start' });
     }
   } else {
     // 兜底：从未保存过状态
