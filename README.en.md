@@ -82,7 +82,7 @@ Edit `index.html`:
 
 ```html
 <title>Your Navigation Page Name</title>
-<h1>Your Navigation Page Name</h1>
+<h1 id="pageTitle" title="点击切换页面排列">Your Navigation Page Name</h1>
 ```
 
 ---
