@@ -274,9 +274,9 @@ function doSearch() {
 window.doSearch = doSearch;
 
 /* ── 站内筛选 ── */
-function filterLinks() {
+function filterLinks(queryOverride) {
   syncClearBtn();
-  const query = document.getElementById('searchInput').value.toLowerCase().trim();
+  const query = (queryOverride ?? document.getElementById('searchInput').value).toLowerCase().trim();
 
   // 1. 更新卡片 hidden 状态
   document.querySelectorAll('.card').forEach(card => {
@@ -284,8 +284,16 @@ function filterLinks() {
       card.classList.remove('hidden');
     } else {
       const title    = card.querySelector('.title')?.innerText.toLowerCase() ?? '';
-      const datadesc = (card.dataset.desc ?? '').toLowerCase();
-      card.classList.toggle('hidden', !title.includes(query) && !datadesc.includes(query));
+const datadesc = (card.dataset.desc ?? '').toLowerCase();
+const pinyin   = (card.dataset.pinyin ?? '').toLowerCase();
+const py       = (card.dataset.py ?? '').toLowerCase();
+
+card.classList.toggle('hidden',
+  !title.includes(query) &&
+  !datadesc.includes(query) &&
+  !pinyin.includes(query) &&
+  !py.includes(query)
+);
     }
   });
 
@@ -392,6 +400,34 @@ if (activeTab) {
 }
 window.filterLinks = filterLinks;
 
+/**
+ * 兼容不同 pinyin-pro 版本的拼音转换
+ * @param {string} text - 待转换的文本
+ * @param {object} options - 配置项
+ * @returns {string} 拼音字符串（无声调，空格已去除）
+ */
+function safePinyin(text, options = {}) {
+  if (!text) return '';
+  const lib = window.pinyinPro;
+  if (!lib) return text; // 没有库，返回原文本
+
+  let fn = null;
+  if (typeof lib === 'function') {
+    fn = lib;
+  } else if (typeof lib === 'object') {
+    // 优先尝试常见的导出属性
+    fn = lib.pinyin || lib.default || lib;
+  }
+  if (typeof fn === 'function') {
+    try {
+      return fn(text, options).replace(/\s+/g, '');
+    } catch (e) {
+      console.warn('pinyinPro 调用失败：', e);
+    }
+  }
+  return text; // 降级：返回原文本
+}
+
 /* ── 动态渲染卡片 ── */
 function renderCards(sections) {
   const main = document.getElementById('main-content');
@@ -415,6 +451,13 @@ function renderCards(sections) {
       a.target       = '_blank';
       a.className    = 'card';
       a.dataset.desc = item['data-desc'] ?? item.desc ?? '';
+     // ===== 生成拼音搜索字段（兼容不同 pinyin-pro 版本） =====
+const rawText = item.title.replace(/\s+/g, '');
+const fullPinyin = safePinyin(rawText, { toneType: 'none' });
+const shortPinyin = safePinyin(rawText, { pattern: 'first', toneType: 'none' });
+a.dataset.pinyin = fullPinyin;
+a.dataset.py     = shortPinyin;
+// ===================================================
       a.rel          = 'noopener noreferrer';
       if (item.intranet) {
         a.dataset.url      = item.url;
@@ -707,6 +750,12 @@ themeBtn.addEventListener('click', () => {
   // 窗口尺寸变化（比如手机横竖屏切换）时，重新判断分类标签行要不要居中
   window.addEventListener('resize', updateTabsRowAlignment);
 
+            // ── 搜索框输入过滤（兼容所有输入法） ──
+  const searchInput = document.getElementById('searchInput');
+  searchInput.addEventListener('input', () => {
+    filterLinks();
+  });
+  
   // 搜索框键盘事件
   document.getElementById('searchInput').addEventListener('keydown', e => {
     if (e.key === 'Enter') doSearch();
