@@ -447,13 +447,13 @@
         "title": "文心一言",
         "url": "https://yiyan.baidu.com/",
         "desc": "百度AI大模型",
-        "data-desc": "百度旗下文心一言 AI 大模型，ERNIE Bot，中文理解能力强"
+        "data-desc": "百度旗下文心一言 AI 大模型，ERNIE Bot，中文理解能力强，wxyy，wenxinyiyan"
       },
       {
         "title": "通义千问",
         "url": "https://tongyi.aliyun.com/",
         "desc": "阿里AI大模型",
-        "data-desc": "阿里巴巴旗下通义千问 AI 大模型，Qwen，支持长文档与多模态",
+        "data-desc": "阿里巴巴旗下通义千问 AI 大模型，Qwen，支持长文档与多模态,tyqw,tongyiqianwen",
         "icon": "icons/logos/通义千问.svg"
       },
       {
